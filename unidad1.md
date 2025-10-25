@@ -43,6 +43,10 @@ Los diagramas de flujo son esenciales para aprender a como esta estructurado
 
 ----
 
+#  Programación por bloques
+
+----
+
 # Ejemplos de algoritmos con estructuras lineales/secuenciales
 
 Para realizar una estructura de algoritmos completamente organizadas, hay que tratar de separar el codigo por partes, para poder resolverlo en su totalidad de una manera sencilla, dando así un resultado completamente desglozado y realizado de una manera optima.
@@ -58,7 +62,15 @@ Hoy en día existen una serie de problemas cotidianos que surgen de la necesidad
 
 Pseudocódigo (PSeInt)
 Lenguaje de Programación (C)
+* [Pseudocódigo (PSeInt]()
 
+----
+
+# Principales dificultades en la aplicación de los contenidos.
+
+----
+
+# Reflexión crítica de los aprendizajes de la unidad.
 
 
 
