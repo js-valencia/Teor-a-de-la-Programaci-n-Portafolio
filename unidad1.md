@@ -41,6 +41,24 @@ En el aprendizaje de Algoritmos, empezamos a ver problemas cotidianos u operacio
 Los diagramas de flujo son esenciales para aprender a como esta estructurado 
 
 
+----
+
+# Ejemplos de algoritmos con estructuras lineales/secuenciales
+
+Para realizar una estructura de algoritmos completamente organizadas, hay que tratar de separar el codigo por partes, para poder resolverlo en su totalidad de una manera sencilla, dando así un resultado completamente desglozado y realizado de una manera optima.
+
+Hoy en día existen una serie de problemas cotidianos que surgen de la necesidad de resolver estos problemas, evitando dar tantas vueltas y tratar de resolver de una manera sencilla y ordenada, como se presentan en los siguentes ejemplos:
+
+### Problemas Cotidianos
+
+1. Una persona quiere saber cuanto va a gastar en una cierta cantidad de producto y quiere saber cuánto debe pagar incluyendo el IVA.
+2. Una persona quiere saber cuántos galones de gasolina usa su auto en un viaje y cuánto gastará en total.
+
+#### Ejemplo 1
+
+Pseudocódigo (PSeInt)
+Lenguaje de Programación (C)
+
 
 
 
