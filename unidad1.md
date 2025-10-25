@@ -33,11 +33,19 @@
 
 # Algoritmos, Pseudocódigo
 
-Los Algoritmos son una secuencia de pasos a seguir, ordenados y finitos, que pueden solucionar un problema determinado; estos nos ayudan bastante en la resolucion de problemas pplanteados desde el mundo real a la computación, que permite hacer codigos en un determinado lenguaje para que así puedan aprender, visualizar, razonar y comprender la raíz de un problema y llegar a buscar una solucion.
+Los Algoritmos son una secuencia de pasos a seguir, ordenados y finitos, que pueden solucionar un problema determinado y se presentan no solamente ante problemas matemáticos complejos, sino también con problemas cotidianos [1]. Por ejemplo, una persona quiere salir de su casa por lo que debe seguir estos pasos: 
+1) Dijirirse a la puerta.
+2) Si esta cerrada, entonces gira la manija, jala la puerta y sale del cuarto.
+3) Si está abierta, sale del cuarto sin problemas.
+4) Jalar la puerta para cerrala.
+Estos nos ayudan bastante en la resolucion de problemas pplanteados desde el mundo real a la computación, que permite hacer codigos en un determinado lenguaje para que así puedan aprender, visualizar, razonar y comprender la raíz de un problema y llegar a buscar una solucion.
 
-El pseudocódigo es un lenguaje que permite al usuario manejar el español y una herramienta de programación al mismo tiempo, permitiendo un aprerndizaje facil para adentrarse en los leguajes verdaderos de la programación; un ejemplo de pseudocódigo es PSeInt, además que es facil de usar, editar y comprender que puede hacer cada comando escrito en el codigo.
+El pseudocódigo es una serie de instrucciones escritas bajo cierta estructura y reglas que inducirán al alumno a adecuarse y hacer el paso más fácil hacia los lenguajes de programación [1]. Permite al usuario manejar el español y una herramienta de programación al mismo tiempo, permitiendo un aprendizaje facil para adentrarse en los leguajes verdaderos de la programación; un ejemplo de pseudocódigo es PSeInt, además que es facil de usar, editar y comprender que puede hacer cada comando escrito en el codigo. Por ejemplo, alguien quiere sumar dos numeros enteros:
+Algoritmo
+Definir num1, num2, resultado como Entero;
 
-En el aprendizaje de Algoritmos, empezamos a ver problemas cotidianos u operaciones matemáticas que incluyen en el proceso de codificación, como resolver problemas de sumas o restas de dos o más numeros, distancias, encontrar el area de un triangulo o rectangulo, entre otros.
+//Datos de entrada
+  
 
 ----
 
