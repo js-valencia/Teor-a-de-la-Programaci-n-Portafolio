@@ -67,8 +67,6 @@ Hoy en día existen una serie de problemas cotidianos que surgen de la necesidad
 
 #### Ejemplo 1
 
-Pseudocódigo (PSeInt)
-Lenguaje de Programación (C)
 * [Pseudocódigo (PSeInt)](https://github.com/js-valencia/Teor-a-de-la-Programaci-n-Portafolio/blob/main/Calculo_gasto_de_productos.psc)
 * [Lenguaje de programación (C)](https://github.com/js-valencia/Teor-a-de-la-Programaci-n-Portafolio/blob/main/Calculo_gastos_productos.c)
 
@@ -95,7 +93,14 @@ El nivel de dificultad que llegó a ser el manejo correcto de esta herramienta e
 
 # Reflexión crítica de los aprendizajes de la unidad.
 
+----
 
+# Tareas entregadas
+
+* [Herramientas de algoritmos (pseudocódigo y diagramas de flujo)](https://github.com/js-valencia/Teor-a-de-la-Programaci-n-Portafolio/blob/main/Valencia_Jose_Tarea_ProgramaciónN1.pdf)
+* [Instalación de lenguajes de programación (C, Python o Java)](https://github.com/js-valencia/Teor-a-de-la-Programaci-n-Portafolio/blob/main/Valencia_Jose_TareaProgramación_N2.pdf)
+* [Primer acercamiento a la construcción de algoritmos con estructuras secuenciales en pseudocódigoTarea]
+* [Del diseño del algoritmo con estructuras secuenciales a la construcción del programa]
 
 
 
