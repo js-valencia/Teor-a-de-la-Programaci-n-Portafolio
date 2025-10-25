@@ -62,7 +62,7 @@ Hoy en día existen una serie de problemas cotidianos que surgen de la necesidad
 
 Pseudocódigo (PSeInt)
 Lenguaje de Programación (C)
-* [Pseudocódigo (PSeInt]()
+* [Pseudocódigo (PSeInt)](https://github.com/js-valencia/Teor-a-de-la-Programaci-n-Portafolio/blob/main/Calculo_gasto_de_productos.psc)
 
 ----
 
