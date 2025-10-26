@@ -38,14 +38,36 @@ Los Algoritmos son una secuencia de pasos a seguir, ordenados y finitos, que pue
 2) Si esta cerrada, entonces gira la manija, jala la puerta y sale del cuarto.
 3) Si está abierta, sale del cuarto sin problemas.
 4) Jalar la puerta para cerrala.
+
 Estos nos ayudan bastante en la resolucion de problemas pplanteados desde el mundo real a la computación, que permite hacer codigos en un determinado lenguaje para que así puedan aprender, visualizar, razonar y comprender la raíz de un problema y llegar a buscar una solucion.
 
 El pseudocódigo es una serie de instrucciones escritas bajo cierta estructura y reglas que inducirán al alumno a adecuarse y hacer el paso más fácil hacia los lenguajes de programación [1]. Permite al usuario manejar el español y una herramienta de programación al mismo tiempo, permitiendo un aprendizaje facil para adentrarse en los leguajes verdaderos de la programación; un ejemplo de pseudocódigo es PSeInt, además que es facil de usar, editar y comprender que puede hacer cada comando escrito en el codigo. Por ejemplo, alguien quiere sumar dos numeros enteros:
+
+
 Algoritmo
+
+//Definir Variables
+
 Definir num1, num2, resultado como Entero;
 
 //Datos de entrada
-  
+
+Leer num1;
+
+Leer num2;
+
+//Proceso
+
+resultado = num1 + num2;
+
+//Salida
+
+Escribir resultado;
+
+FinAlgoritmo
+
+
+Primero, damos incio a nuestro codigo marcando su inicio con *Algoritmo* y *definimos las variables* del problema que son **num1** para el primer numero, **num2** para el segundo número, y **resultado** para la respuesta, y como los numeros van a ser enteros, los definimos como enteros; en los *datos de entrada* pedimos al usuario que ingrese valores de num1 y num2, ésta funcion se llama **Leer**; para el proceso, sumamos el num1 más el num2 y nos tiene que salir como respuesta el **resultado**;  la *salida*, que imrpimimos (Escribir) en la pantalla el resultado, y finalmente cerramos el algoritmo con *FinAlgoritmo*.
 
 ----
 
@@ -95,11 +117,13 @@ Esta herramienta presentó nuevas maneras de subir un codigo por "repositorios" 
 
 ### Programación en C
 
-El nivel de dificultad que llegó a ser el manejo correcto de esta herramienta es amplio, pero no tan dificil, ya que en algunos casos se necesita aprender ciertos simbolos característicos del lenguaje de programación de uso obligatorio, para incluir librerías (#include), para empezar a estructurar un algoritmo (int main() { }), o para permitir leer variables (scanf).
+El nivel de dificultad que implicó el manejo correcto de esta herramienta es amplio, pero no tan difícil, ya que en algunos casos se necesita aprender ciertos símbolos característicos del lenguaje de programación que son de uso obligatorio, como incluir librerías (#include), iniciar la estructura de un algoritmo (int main() { }), o permitir la lectura de variables (scanf).
 
 ----
 
 # Reflexión crítica de los aprendizajes de la unidad.
+
+En toda la unidad, abarcamos varios temas que fueron de gran utilidad
 
 ----
 
