@@ -67,20 +67,27 @@ Escribir resultado;
 FinAlgoritmo
 
 
-Primero, damos incio a nuestro codigo marcando su inicio con *Algoritmo* y *definimos las variables* del problema que son **num1** para el primer numero, **num2** para el segundo número, y **resultado** para la respuesta, y como los numeros van a ser enteros, los definimos como enteros; en los *datos de entrada* pedimos al usuario que ingrese valores de num1 y num2, ésta funcion se llama **Leer**; para el proceso, sumamos el num1 más el num2 y nos tiene que salir como respuesta el **resultado**;  la *salida*, que imrpimimos (Escribir) en la pantalla el resultado, y finalmente cerramos el algoritmo con *FinAlgoritmo*.
+Primero, damos incio a nuestro codigo marcando su inicio con *Algoritmo* y *definimos las variables* del problema que son **num1** para el primer numero, **num2** para el segundo número, y **resultado** para la respuesta, y como los numeros van a ser enteros, los definimos como enteros; en los *datos de entrada* pedimos al usuario que ingrese valores de num1 y num2, ésta funcion se llama **Leer**; para el proceso, sumamos el num1 más el num2 y nos tiene que salir como respuesta el **resultado**;  la *salida*, que imrpimimos (Escribir) en la pantalla el resultado, y finalmente cerramos el algoritmo con *FinAlgoritmo*. Para realizar pruebas de escritorio, le damos click en el boton ejecutar y si esta todo bien, nos debe ejecutar sin problemas.
+
+* [Ejecución del Programa](https://github.com/js-valencia/Teor-a-de-la-Programaci-n-Portafolio/blob/main/Prueba_de_Escritorio.png)
 
 ----
 
 # Diagrama de flujo
 
-Los diagramas de flujo son esenciales para aprender a como esta estructurado 
+Es un intento de expresar ideas gráficamente a través del texto. A menudo proporciona una visión gráfica de la descripción del algoritmo en el diagrama de flujo. Se trata de un conjunto de herramientas gráficas con una simbología estándar que pueden representar los diferentes algoritmos de acción del algoritmo [2]. Una herramienta de diagrama de flujo es PSeInt, que aparte de usarse en Pseudocódigo, se usa para representar graficamente los algoritmos realizados en esta herramienta.
 
+Vamos a tomar como referencia al ejemplo anteríor, el algoritmo de la suma de dos números representados en un diagrama de flujo:
+
+* [Diagrama de Flujo](https://github.com/js-valencia/Teor-a-de-la-Programaci-n-Portafolio/blob/main/Diagrama_de_Flujo.png)
+
+Como pudimos observar en la imagen, se ve los pasos del anterior algoritmos de una manera más comoda y persuasiva. Esta herramienta nos puede ayuda para planificar programas o algoritmos antes de codificarlos , para detectar errores lógicos antes de escribir código, o para documentar procesos o sistemas.
 
 ----
 
 #  Programación por bloques
 
-
+La programación por bloques es una forma de crear programas 
 
 ----
 
