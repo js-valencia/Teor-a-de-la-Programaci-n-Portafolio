@@ -1,24 +1,3 @@
-# UNIVERSIDAD NACIONAL DE LOJA
-
-# FACULTAD DE LA ENERGÍA, LAS INDUSTRIAS Y LOS RECURSOS NATURALES NO RENOVABLES
-
-## Carrera de Computación
-
-
-### Teoría de la Programación – Unidad 1
-
------
-
-**Nombre:** José David Valencia Condoy
-
-**Periodo/Ciclo:** 1° Ciclo                        **Paralelo:** “A”
-
-**Docente:*** Lissette Geoconda López Faican
-
-**Periodo Académico:** Septiembre – Febrero 2026
-
-----
-
 # 🧠 Unidad 1
 
 ---
