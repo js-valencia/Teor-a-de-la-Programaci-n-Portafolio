@@ -42,9 +42,10 @@ En esta primera unidad comprendí acerca de los fundamentos de la creación de *
 ## Referencias 📚
 
 [1] Figueroa Piscoya, E.N.,  Maldonado Ramirez, I., y Santa Cruz Acosta, R.C. Fundamentos de programación, Un enfoque práctico. Biblioteca Nacional del Perú. Disponible en: https://www.academia.edu/103779068/FUNDAMENTOS_DE_PROGRAMACI%C3%93N_Un_enfoque_pr%C3%A1ctico. 2021.
-[2] Polo Perez, C. K.. Algorítmica y herramientas de algorítmicas. Introducción. Estructura de datos. Algoritmos. Pseudocódigos. Diagramas de Flujo. Programación estructurada. Estructura de Control Tipos de datos básicos. Cadenas de caracteres. Arreglos. Procedimientos. Funciones. Estructura del algoritmo en el programa, comandos e instrucciones con ejemplos. Software de Aplicación (Monografía de pregrado). Universidad Nacional de Educación Enrique Guzmán y Valle, Lima, Perú. 2021.
-[3] 
 
+[2] Polo Perez, C. K.. Algorítmica y herramientas de algorítmicas. Introducción. Estructura de datos. Algoritmos. Pseudocódigos. Diagramas de Flujo. Programación estructurada. Estructura de Control Tipos de datos básicos. Cadenas de caracteres. Arreglos. Procedimientos. Funciones. Estructura del algoritmo en el programa, comandos e instrucciones con ejemplos. Software de Aplicación (Monografía de pregrado). Universidad Nacional de Educación Enrique Guzmán y Valle, Lima, Perú. Disponible en: https://repositorio.une.edu.pe/handle/20.500.14039/7584. 2021.
+
+[3] Sáez López J. M. y Cózar Gutiérrez R; Programación visual por bloques en Educación Primaria: Aprendiendo y creando contenidos en Ciencias Sociales. Revista Complutense de Educación, 28(2), 409-426. 2016
 ## Uso de IA Comparativa 🤖
 
 Declaro que en la elaboración de este documento utilicé **herramientas de inteligencia artificial (ChatGPT, modelo GPT-5 de OpenAI)** únicamente para **mejorar la redacción, ortografía y formato visual del texto**, sin alterar su contenido original.  La comprensión y el desarrollo de los temas fueron realizados por mi propia autoría.
