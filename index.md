@@ -45,7 +45,7 @@ En esta primera unidad comprendí acerca de los fundamentos de la creación de *
 
 [2]	E. Guzmán Y Valle, A. Máter, D. Magisterio, N. Facultad, and D. E. Ciencias, “Algorítmica y herramientas de algorítmicas. Introducción. Estructura de datos. Algoritmos. Pseudocódigos. Diagramas de Flujo. Programación estructurada. Estructura de Control Tipos de datos básicos. Cadenas de caracteres. Arreglos. Procedimientos. Funciones. Estructura del algoritmo en el programa, comandos e instrucciones con ejemplos. Software de Aplicación,” Universidad Nacional de Educación Enrique Guzmán y Valle, Sep. 2021. Accessed: Oct. 26, 2025. [Online]. Available: https://repositorio.une.edu.pe/handle/20.500.14039/7584
 
-[3]	M. X. Prado Ortega et al., “Beneficios de la programación por bloques utilizando Sphero mini mediante aprendizaje móvil en la educación superior,” E-Ciencias de la Información, vol. 13, no. 2, pp. 73–96, Jun. 2023, doi: 10.15517/ECI.V13I2.54814.
+[3]	M. X. Prado Ortega et al., “Beneficios de la programación por bloques utilizando Sphero mini mediante aprendizaje móvil en la educación superior,” E-Ciencias de la Información, vol. 13, no. 2, pp. 73–96, Jun. 2023, doi: 10.15517/ECI.V13I2.54814. 2023
 
 ## Uso de IA Comparativa 🤖
 
