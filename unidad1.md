@@ -133,7 +133,7 @@ El nivel de dificultad que implicó el manejo correcto de esta herramienta es am
 
 En toda la unidad, abarcamos varios temas que fueron de gran utilidad como con los Algoritmos, que siguen una serie de pasos ordenados y finitos; el pseudocódigo que permitió introducir a la programación combinando un Lenguaje de Programación y el Español; los diagramas de flujo que permite ver los algoritmos elaborados de una manera más creativa y una manera más facil de corregir errores en el codigo; la programación por bloques que permite aplicar la lógica sin complicaciones técnicas.
 
-Estas herramientas fortalecirn ls capacidad para analizar, planificar y desarrollar soluciones estructuradas, comprendiendo mejor el vínculo entre el razonamiento humano y el lenguaje de la computadora. Gracias a estos aprendizajes, estoy preparado para avanzar más hacia los lenguajes de programación que requieran más nivel de dificultad.
+Estas herramientas fortalecieron ls capacidad para analizar, planificar y desarrollar soluciones estructuradas, comprendiendo mejor el vínculo entre el razonamiento humano y el lenguaje de la computadora. Gracias a estos aprendizajes, estoy preparado para avanzar más hacia los lenguajes de programación que requieran más nivel de dificultad.
 
 ----
 
