@@ -141,7 +141,7 @@ Estas herramientas fortalecieron ls capacidad para analizar, planificar y desarr
 
 * [Herramientas de algoritmos (pseudocódigo y diagramas de flujo)](https://github.com/js-valencia/Teor-a-de-la-Programaci-n-Portafolio/blob/main/Valencia_Jose_Tarea_ProgramaciónN1.pdf)
 * [Instalación de lenguajes de programación (C, Python o Java)](https://github.com/js-valencia/Teor-a-de-la-Programaci-n-Portafolio/blob/main/Valencia_Jose_TareaProgramación_N2.pdf)
-* [Primer acercamiento a la construcción de algoritmos con estructuras secuenciales en pseudocódigoTarea]
+* [Primer acercamiento a la construcción de algoritmos con estructuras secuenciales en pseudocódigoTarea](https://github.com/js-valencia/Teor-a-de-la-Programaci-n-Portafolio/blob/main/VALENCIA_CONDOY_JOSE_DAVID_PL1.pdf)
 * [Del diseño del algoritmo con estructuras secuenciales a la construcción del programa]
 
 ----
