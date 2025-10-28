@@ -41,11 +41,12 @@ En esta primera unidad comprendí acerca de los fundamentos de la creación de *
 
 ## Referencias 📚
 
-[1] Figueroa Piscoya, E.N.,  Maldonado Ramirez, I., y Santa Cruz Acosta, R.C. Fundamentos de programación, Un enfoque práctico. Biblioteca Nacional del Perú. Disponible en: https://www.academia.edu/103779068/FUNDAMENTOS_DE_PROGRAMACI%C3%93N_Un_enfoque_pr%C3%A1ctico. 2021.
+[[1]	E. N. F. Piscoya, “FUNDAMENTOS DE PROGRAMACIÓN. Un enfoque práctico.,” FUNDAMENTOS DE PROGRAMACIÓN. Un enfoque práctico., Jan. 2021, Accessed: Oct. 26, 2025. [Online]. Available: https://www.academia.edu/103779068/FUNDAMENTOS_DE_PROGRAMACI%C3%93N_Un_enfoque_pr%C3%A1ctico
 
-[2] Polo Perez, C. K.. Algorítmica y herramientas de algorítmicas. Introducción. Estructura de datos. Algoritmos. Pseudocódigos. Diagramas de Flujo. Programación estructurada. Estructura de Control Tipos de datos básicos. Cadenas de caracteres. Arreglos. Procedimientos. Funciones. Estructura del algoritmo en el programa, comandos e instrucciones con ejemplos. Software de Aplicación (Monografía de pregrado). Universidad Nacional de Educación Enrique Guzmán y Valle, Lima, Perú. Disponible en: https://repositorio.une.edu.pe/handle/20.500.14039/7584. 2021.
+[2]	E. Guzmán Y Valle, A. Máter, D. Magisterio, N. Facultad, and D. E. Ciencias, “Algorítmica y herramientas de algorítmicas. Introducción. Estructura de datos. Algoritmos. Pseudocódigos. Diagramas de Flujo. Programación estructurada. Estructura de Control Tipos de datos básicos. Cadenas de caracteres. Arreglos. Procedimientos. Funciones. Estructura del algoritmo en el programa, comandos e instrucciones con ejemplos. Software de Aplicación,” Universidad Nacional de Educación Enrique Guzmán y Valle, Sep. 2021. Accessed: Oct. 26, 2025. [Online]. Available: https://repositorio.une.edu.pe/handle/20.500.14039/7584
 
-[3] Sáez López J. M. y Cózar Gutiérrez R; Programación visual por bloques en Educación Primaria: Aprendiendo y creando contenidos en Ciencias Sociales. Revista Complutense de Educación, 28(2), 409-426. 2016
+[3]	M. X. Prado Ortega et al., “Beneficios de la programación por bloques utilizando Sphero mini mediante aprendizaje móvil en la educación superior,” E-Ciencias de la Información, vol. 13, no. 2, pp. 73–96, Jun. 2023, doi: 10.15517/ECI.V13I2.54814.
+
 ## Uso de IA Comparativa 🤖
 
 Declaro que en la elaboración de este documento utilicé **herramientas de inteligencia artificial (ChatGPT, modelo GPT-5 de OpenAI)** únicamente para **mejorar la redacción, ortografía y formato visual del texto**, sin alterar su contenido original.  La comprensión y el desarrollo de los temas fueron realizados por mi propia autoría.
