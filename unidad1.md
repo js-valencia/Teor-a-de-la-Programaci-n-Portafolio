@@ -74,7 +74,7 @@ Como pudimos observar en la imagen, se ve los pasos del anterior algoritmos de u
 
 #  🧩 Programación por bloques
 
-La programación por bloques es una forma de crear programas sencillos. Partiendo de estos entornos que permiten experimentar, compartir y crear a través de programación por bloques, se puede desarrollar el concepto de pensamiento computacional. Los métodos y modelos computacionales permiten resolver problemas y diseñar sistemas que los humanos no podríamos hacer solos [3].
+La programación por bloques es una forma de crear programas sencillos. Un programa se erige con solo arrastrar y colocar los segmentos de bloques en el orden correcto para un determinado propósito, además, se tiene por ventaja que el programa escrito se encuentra sin errores de sintaxis que son recurrentes en otros lenguajes de programacións [3]. 
 Existen varias herramientas como Sratch o Blocky Games, que ayudan al aprendizaje de estructurar algoritmos ordenados, ya sea para que un personalle llegue al lugar del destino, o para crear una historia o un cuento.
 
 A continuación, presentaremos imagenes de la página de Blocky Games, y veremos como funciona:
