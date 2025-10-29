@@ -30,8 +30,8 @@ Un ejemplo de pseudocódigo es **PSeInt**, además de que es fácil de usar, edi
 
 Por ejemplo, alguien quiere sumar dos números enteros:
 
-
-Algoritmo
+```psc
+Algoritmo suma_dos_numeros
 
 //Definir Variables
 
@@ -52,7 +52,7 @@ resultado = num1 + num2;
 Escribir resultado;
 
 FinAlgoritmo
-
+```
 
 Primero, damos incio a nuestro codigo marcando su inicio con *Algoritmo* y *definimos las variables* del problema que son **num1** para el primer numero, **num2** para el segundo número, y **resultado** para la respuesta, y como los numeros van a ser enteros, los definimos como enteros; en los *datos de entrada* pedimos al usuario que ingrese valores de num1 y num2, ésta funcion se llama **Leer**; para el proceso, sumamos el num1 más el num2 y nos tiene que salir como respuesta el **resultado**;  la *salida*, que imrpimimos (Escribir) en la pantalla el resultado, y finalmente cerramos el algoritmo con *FinAlgoritmo*. Para realizar pruebas de escritorio, le damos click en el boton ejecutar y si esta todo bien, nos debe ejecutar sin problemas.
 
