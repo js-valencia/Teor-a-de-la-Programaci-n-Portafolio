@@ -9,7 +9,7 @@ Algoritmo Calculo_gasto_de_productos
 	
 	//Entrada de Datos
 	
-	Escribir "Calculador de Gasto en una Tienda: "
+	Escribir "Calculador de Gasto en una Tienda: ";
 	
 	Escribir "Ingrese el precio del producto: ";
 	Leer precio;
@@ -19,7 +19,7 @@ Algoritmo Calculo_gasto_de_productos
 	
 	//Proceso 
 	
-	IVA = 0.15
+	IVA = 0.15;
 	
 	subtotal = precio * cantidad;
 	
@@ -32,4 +32,5 @@ Algoritmo Calculo_gasto_de_productos
 	Escribir "El total a pagar del producto requerido (con IVA) es de: ", total;
 	
 FinAlgoritmo
+
 
