@@ -66,7 +66,7 @@ Es un intento de expresar ideas gráficamente a través del texto. A menudo prop
 
 Vamos a tomar como referencia al ejemplo anteríor, el algoritmo de la suma de dos números representados en un diagrama de flujo:
 
-*🔗 🖼️ [Diagrama de Flujo](https://github.com/js-valencia/Teor-a-de-la-Programaci-n-Portafolio/blob/main/Diagrama_de_Flujo.png)
+*🔗 🖼️ [Diagrama de Flujo](https://github.com/js-valencia/Teor-a-de-la-Programaci-n-Portafolio/blob/main/Unidad1/Diagrama_de_Flujo.png)
 
 Como pudimos observar en la imagen, se ve los pasos del anterior algoritmos de una manera más comoda y persuasiva. Esta herramienta nos puede ayuda para planificar programas o algoritmos antes de codificarlos , para detectar errores lógicos antes de escribir código, o para documentar procesos o sistemas.
 
