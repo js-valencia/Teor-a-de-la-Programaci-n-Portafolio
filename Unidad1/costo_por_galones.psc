@@ -15,7 +15,7 @@ Algoritmo costo_por_galones
 	Escribir "Ingrese la distancia recorrida en Km: ";
 	Leer distancia;
 	
-	Escribir "Ingrese el rendimiento de su vehículo (km/galón): ";
+	Escribir "Ingrese el rendimiento de su vehÃ­culo (km/galÃ³n): ";
 	Leer rendimiento;
 	
 	//Proceso
