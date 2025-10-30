@@ -56,7 +56,7 @@ FinAlgoritmo
 
 Primero, damos incio a nuestro codigo marcando su inicio con *Algoritmo* y *definimos las variables* del problema que son **num1** para el primer numero, **num2** para el segundo número, y **resultado** para la respuesta, y como los numeros van a ser enteros, los definimos como enteros; en los *datos de entrada* pedimos al usuario que ingrese valores de num1 y num2, ésta funcion se llama **Leer**; para el proceso, sumamos el num1 más el num2 y nos tiene que salir como respuesta el **resultado**;  la *salida*, que imrpimimos (Escribir) en la pantalla el resultado, y finalmente cerramos el algoritmo con *FinAlgoritmo*. Para realizar pruebas de escritorio, le damos click en el boton ejecutar y si esta todo bien, nos debe ejecutar sin problemas.
 
-*🔗 🖼️ [Ejecución del Programa](https://github.com/js-valencia/Teor-a-de-la-Programaci-n-Portafolio/blob/main/Prueba_de_Escritorio.png)
+*🔗 🖼️ [Ejecución del Programa](https://github.com/js-valencia/Teor-a-de-la-Programaci-n-Portafolio/blob/main/Unidad1/Prueba_de_Escritorio.png)
 
 ----
 
@@ -79,13 +79,13 @@ Existen varias herramientas como Sratch o Blocky Games, que ayudan al aprendizaj
 
 A continuación, presentaremos imagenes de la página de Blocky Games, y veremos como funciona:
 
-1)🎵 [Blocky Game](https://github.com/js-valencia/Teor-a-de-la-Programaci-n-Portafolio/blob/main/programación_por_bloques1.png)
+1)🎵 [Blocky Game](https://github.com/js-valencia/Teor-a-de-la-Programaci-n-Portafolio/blob/main/Unidad1/programación_por_bloques1.png)
 En la primera imagen, tenemos una serie de notas musicales y un cuadro que nos dice *when play button clicked* que es la acción de darle click al botón.
 
-2) 🧱 [Estructura del Bloque](https://github.com/js-valencia/Teor-a-de-la-Programaci-n-Portafolio/blob/main/programación_por_bloques2.png)
+2) 🧱 [Estructura del Bloque](https://github.com/js-valencia/Teor-a-de-la-Programaci-n-Portafolio/blob/main/Unidad1/programación_por_bloques2.png)
 En la segunda imagen, se presenta el bloque realizado, en cada cuadro dentro del bloque *when play button clicked*, y como hay 4 notas musicales agregamos 4 bloques más pequeños que van a seguir las ordenes que le demos.
 
-3) 💻 [Resultado en JavaScript](https://github.com/js-valencia/Teor-a-de-la-Programaci-n-Portafolio/blob/main/programación_por_bloques3.png)
+3) 💻 [Resultado en JavaScript](https://github.com/js-valencia/Teor-a-de-la-Programaci-n-Portafolio/blob/main/Unidad1/programación_por_bloques3.png)
 En la utlima imagen, se presenta el codigo ya resuelto en **JavaScript** si lo hicimos correctamente podremos avanzar al siguente nivel.
 
 En resumen, la programación por bloques facilita el aprendizaje de la lógica y la secuencia de instrucciones, es muy usado en educación y enseñanza básica de programación y permite crear programas rápidamente sin errores de escritura, además de que algunos entornos permiten ver el código real que generan los bloques, como es el caso de BlockyGames con **JavaScript**.
@@ -98,20 +98,45 @@ Para realizar una estructura de algoritmos completamente organizadas, hay que tr
 
 Hoy en día existen una serie de problemas cotidianos que surgen de la necesidad de resolvelos evitando dar tantas vueltas y tratar de buscar una solución de una manera sencilla y ordenada, como se presentan en los siguentes ejemplos:
 
-### 💰 Problemas Cotidianos
+## 💰 Problemas Cotidianos
 
 1. Una persona quiere saber cuanto va a gastar en una cierta cantidad de producto y quiere saber cuánto debe pagar incluyendo el IVA.
 2. Una persona quiere saber cuántos galones de gasolina usa su auto en un viaje y cuánto gastará en total.
 
-#### Ejemplo 1
+### Ejemplo 1
 
-* 📄 [Pseudocódigo (PSeInt)](https://github.com/js-valencia/Teor-a-de-la-Programaci-n-Portafolio/blob/main/Calculo_gasto_de_productos.psc)
-* 💻 [Lenguaje de programación (C)](https://github.com/js-valencia/Teor-a-de-la-Programaci-n-Portafolio/blob/main/Calculo_gastos_productos.c)
+##### PSeInt
 
-#### Ejemplo 2
+Primero, damos inicio a nuestro código marcando su inicio con **Algoritmo** y *definimos las variables del problema*, que son **precio, cantidad, subtotal, IVA, valorIva y total**; todas serán de tipo real, ya que pueden tener decimales.
+En los datos de entrada, pedimos al usuario que ingrese el precio del producto (precio) y la los productos que desea adquirir (cantidad), esta función se llama *Leer*.
+En el proceso, designamos el valor del *IVA*  del 15% (0,15) y multiplicamos el *precio × cantidad* para obtener el *subtotal*,  el *valorIva* (valor del IVA) lo sacamos multiplicando el *subtotal * IVA* y finalmente sumamos ambos valores para obtener el *total = subtotal + iva*.
+En la salida, imprimimos (Escribir) en la pantalla el subtotal, el iva y el total a pagar.
+Finalmente, cerramos el algoritmo con FinAlgoritmo.
+Para realizar la prueba de escritorio, damos clic en el botón **Ejecutar** y si está todo correcto, el programa mostrará el total con IVA incluido sin errores.
 
-* 📄 [Pseudocódigo (PSeInt)](https://github.com/js-valencia/Teor-a-de-la-Programaci-n-Portafolio/blob/main/costo_por_galones.psc)
-* 💻 [Lenguaje de programación (C)](https://github.com/js-valencia/Teor-a-de-la-Programaci-n-Portafolio/blob/main/costo_por_galones.c)
+##### Lenguaje C
+
+Primero, damos inicio a nuestro programa incluyendo la librería #include <stdio.h> que nos permite usar funciones como printf y scanf para mostrar y leer datos.
+Luego, dentro de la función principal main(), declaramos las variables del problema, que son precio, cantidad, subtotal, iva, valorIva y total; todas de tipo float, ya que pueden tener decimales.
+
+En los datos de entrada, pedimos al usuario que ingrese el precio del producto (precio) y la cantidad de productos que desea adquirir (cantidad), esto lo hacemos con la función scanf.
+
+En el proceso, asignamos el valor del iva = 0.15, y multiplicamos precio × cantidad para obtener el subtotal.
+Luego, calculamos el valorIva = subtotal × iva, y finalmente el total = subtotal + valorIva.
+
+En la salida, mostramos con la función printf el subtotal, el iva y el total a pagar.
+
+Finalmente, cerramos nuestro programa con return 0; que indica que el programa terminó correctamente.
+
+Para realizar la prueba de escritorio, compilamos y ejecutamos el programa. Si todo está correcto, el resultado mostrará el total con el IVA incluido sin errores.
+
+* 📄 [Pseudocódigo (PSeInt)](https://github.com/js-valencia/Teor-a-de-la-Programaci-n-Portafolio/blob/main/Unidad1/Calculo_gasto_de_productos.psc)
+* 💻 [Lenguaje de programación (C)](https://github.com/js-valencia/Teor-a-de-la-Programaci-n-Portafolio/blob/main/Unidad1/Calculo_gastos_productos.c)
+
+### Ejemplo 2
+
+* 📄 [Pseudocódigo (PSeInt)](https://github.com/js-valencia/Teor-a-de-la-Programaci-n-Portafolio/blob/main/Unidad1/costo_por_galones.psc)
+* 💻 [Lenguaje de programación (C)]([https://github.com/js-valencia/Teor-a-de-la-Programaci-n-Portafolio/blob/main/Unidad1/costo_por_galones.c)
 
 ----
 
@@ -139,11 +164,10 @@ Estas herramientas fortalecieron ls capacidad para analizar, planificar y desarr
 
 # 🗂️ Tareas entregadas
 
-* [Herramientas de algoritmos (pseudocódigo y diagramas de flujo)](https://github.com/js-valencia/Teor-a-de-la-Programaci-n-Portafolio/blob/main/Valencia_Jose_Tarea_ProgramaciónN1.pdf)
-* [Instalación de lenguajes de programación (C, Python o Java)](https://github.com/js-valencia/Teor-a-de-la-Programaci-n-Portafolio/blob/main/Valencia_Jose_TareaProgramación_N2.pdf)
-* [Primer acercamiento a la construcción de algoritmos con estructuras secuenciales en pseudocódigoTarea](https://github.com/js-valencia/Teor-a-de-la-Programaci-n-Portafolio/blob/main/VALENCIA_CONDOY_JOSE_DAVID_PL1.pdf)
-* [Del diseño del algoritmo con estructuras secuenciales a la construcción del programa](https://github.com/js-valencia/Teor-a-de-la-Programaci-n-Portafolio/blob/main/VALENCIA_CONDOY_JOSE_DAVID_PL2.pdf)
-
+* [Herramientas de algoritmos (pseudocódigo y diagramas de flujo)](https://github.com/js-valencia/Teor-a-de-la-Programaci-n-Portafolio/blob/main/Unidad1/Valencia_Jose_Tarea_ProgramaciónN1.pdf)
+* [Instalación de lenguajes de programación (C, Python o Java)](https://github.com/js-valencia/Teor-a-de-la-Programaci-n-Portafolio/blob/main/Unidad1/Valencia_Jose_TareaProgramación_N2.pdf)
+* [Primer acercamiento a la construcción de algoritmos con estructuras secuenciales en pseudocódigoTarea](https://github.com/js-valencia/Teor-a-de-la-Programaci-n-Portafolio/blob/main/Unidad1/VALENCIA_CONDOY_JOSE_DAVID_PL1.pdf)
+* [Del diseño del algoritmo con estructuras secuenciales a la construcción del programa](https://github.com/js-valencia/Teor-a-de-la-Programaci-n-Portafolio/blob/main/Unidad1/VALENCIA_CONDOY_JOSE_DAVID_PL2.pdf)
 ----
 
 
