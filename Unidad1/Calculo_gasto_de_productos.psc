@@ -23,7 +23,7 @@ Algoritmo Calculo_gasto_de_productos
 	
 	subtotal = precio * cantidad;
 	
-	valorIva = subtotal * 0.15;
+	valorIva = subtotal * IVA;
 	
 	total = subtotal + valorIva;
 	
@@ -32,3 +32,4 @@ Algoritmo Calculo_gasto_de_productos
 	Escribir "El total a pagar del producto requerido (con IVA) es de: ", total;
 	
 FinAlgoritmo
+
