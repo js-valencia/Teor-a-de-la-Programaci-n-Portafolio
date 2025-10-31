@@ -110,33 +110,52 @@ Hoy en día existen una serie de problemas cotidianos que surgen de la necesidad
 Primero, damos inicio a nuestro código marcando su inicio con **Algoritmo** y *definimos las variables del problema*, que son **precio, cantidad, subtotal, IVA, valorIva y total**; todas serán de tipo real, ya que pueden tener decimales.
 En los datos de entrada, pedimos al usuario que ingrese el precio del producto (precio) y la los productos que desea adquirir (cantidad), esta función se llama *Leer*.
 En el proceso, designamos el valor del *IVA*  del 15% (0,15) y multiplicamos el *precio × cantidad* para obtener el *subtotal*,  el *valorIva* (valor del IVA) lo sacamos multiplicando el *subtotal * IVA* y finalmente sumamos ambos valores para obtener el *total = subtotal + iva*.
-En la salida, imprimimos (Escribir) en la pantalla el subtotal, el iva y el total a pagar.
-Finalmente, cerramos el algoritmo con FinAlgoritmo.
-Para realizar la prueba de escritorio, damos clic en el botón **Ejecutar** y si está todo correcto, el programa mostrará el total con IVA incluido sin errores.
+En la salida, mostramos con la función **Escribir** el subtotal, el iva y el total a pagar.
+Finalmente, cerramos el algoritmo con **FinAlgoritmo**.
+Para realizar la prueba de escritorio, damos clic en el botón **Ejecutar**.
+
+* 📄 [Pseudocódigo (PSeInt)](https://github.com/js-valencia/Teor-a-de-la-Programaci-n-Portafolio/blob/main/Unidad1/Calculo_gasto_de_productos.psc)
 
 ##### Lenguaje C
 
-Primero, damos inicio a nuestro programa incluyendo la librería #include <stdio.h> que nos permite usar funciones como printf y scanf para mostrar y leer datos.
-Luego, dentro de la función principal main(), declaramos las variables del problema, que son precio, cantidad, subtotal, iva, valorIva y total; todas de tipo float, ya que pueden tener decimales.
-
-En los datos de entrada, pedimos al usuario que ingrese el precio del producto (precio) y la cantidad de productos que desea adquirir (cantidad), esto lo hacemos con la función scanf.
-
-En el proceso, asignamos el valor del iva = 0.15, y multiplicamos precio × cantidad para obtener el subtotal.
-Luego, calculamos el valorIva = subtotal × iva, y finalmente el total = subtotal + valorIva.
-
+Primero, damos inicio a nuestro programa incluyendo la librería **#include <stdio.h>** que nos permite usar funciones como *printf* y *scanf* para mostrar y leer datos.
+Luego, dentro de la función principal **main()**, declaramos las variables del problema, que son **precio, cantidad, subtotal, iva, valorIva y total**; todas de tipo *float*, ya que pueden tener decimales. En los datos de entrada, pedimos al usuario que ingrese el precio del producto (precio) y la cantidad de productos que desea adquirir (cantidad), esto lo hacemos con la función scanf. 
+En el proceso, asignamos el valor del *IVA = 0.15*, y multiplicamos *precio × cantidad* para obtener el *subtotal*.
+Luego, calculamos el *valorIva = subtotal × iva*, y finalmente el *total = subtotal + valorIva*.
 En la salida, mostramos con la función printf el subtotal, el iva y el total a pagar.
+Finalmente, cerramos nuestro programa con **return 0**; que indica que el programa terminó correctamente.
+Para realizar la prueba de escritorio, compilamos con el comando **gcc Calculo_gastos_productos.c -o Calculo_gastos_productos** y ejecutamos  con el comando **.\Calculo_gastos_productos.exe**. Si todo está correcto, el resultado mostrará el total con el IVA incluido sin errores.
 
-Finalmente, cerramos nuestro programa con return 0; que indica que el programa terminó correctamente.
-
-Para realizar la prueba de escritorio, compilamos y ejecutamos el programa. Si todo está correcto, el resultado mostrará el total con el IVA incluido sin errores.
-
-* 📄 [Pseudocódigo (PSeInt)](https://github.com/js-valencia/Teor-a-de-la-Programaci-n-Portafolio/blob/main/Unidad1/Calculo_gasto_de_productos.psc)
 * 💻 [Lenguaje de programación (C)](https://github.com/js-valencia/Teor-a-de-la-Programaci-n-Portafolio/blob/main/Unidad1/Calculo_gastos_productos.c)
+* 💻 [Compilador de C](https://github.com/js-valencia/Teor-a-de-la-Programaci-n-Portafolio/blob/main/Unidad1/Captura%20de%20pantalla%202025-10-30%20221147.png)
+
 
 ### Ejemplo 2
 
+##### PSeInt
+
+Primero, damos inicio a nuestro código marcando su inicio con **Algoritmo** y *definimos las variables del problema*, que son **distancia, rendimiento, costo, costoGalon, y PRECIOGALON**; todas serán de tipo real, ya que pueden tener decimales.
+En los datos de entrada, pedimos al usuario que ingrese la distancia reocrrida en km (distancia) y el rendimiento del vehículo en km por galón (rendimiento), esta función se llama *Leer*.
+En el proceso, designamos el valor del *PRECIOGALON = 2.911*  y dividimos la *distancia / rendimiento* para obtener el *costoGaalon*, y al *costo* lo sacamos multiplicando el *costoGalon * PRECIOGALON*.
+En la salida, mostramos con la función **Escribir** el costo durante un viaje.
+Finalmente, cerramos el algoritmo con **FinAlgoritmo**.
+Para realizar la prueba de escritorio, damos clic en el botón **Ejecutar**.
+
 * 📄 [Pseudocódigo (PSeInt)](https://github.com/js-valencia/Teor-a-de-la-Programaci-n-Portafolio/blob/main/Unidad1/costo_por_galones.psc)
+
+##### Lenguaje C
+
+Primero, damos inicio a nuestro programa incluyendo la librería **#include <stdio.h>** que nos permite usar funciones como *printf* y *scanf* para mostrar y leer datos.
+Luego, dentro de la función principal **main()**, declaramos las variables del problema, que son **distancia, rendimiento, costo, costoGalon, y PRECIOGALON**; todas de tipo *float*, ya que pueden tener decimales. 
+En los datos de entrada, pedimos al usuario que ingrese la distancia reocrrida en km (distancia) y el rendimiento del vehículo en km por galón (rendimiento), esto lo hacemos con la función scanf. 
+En el proceso, asignamos el valor del *RECIOGALON = 2.911*, y dividimos *distancia / rendimientd* para obtener el *costoGalon*.
+Y luego, calculamos el *costo = costoGalon * PRECIOGALON*.
+En la salida, mostramos con la función printf el costo durante un viaje.
+Finalmente, cerramos nuestro programa con **return 0**; que indica que el programa terminó correctamente.
+Para realizar la prueba de escritorio, compilamos con el comando **gcc costo_por_galones.c -o costo_por_galones**, y ejecutamos con el comando **.\costo_por_galones.exe**.
+
 * 💻 [Lenguaje de programación (C)]([https://github.com/js-valencia/Teor-a-de-la-Programaci-n-Portafolio/blob/main/Unidad1/costo_por_galones.c)
+* 💻 [Compilador de C](https://github.com/js-valencia/Teor-a-de-la-Programaci-n-Portafolio/blob/main/Unidad1/Captura%20de%20pantalla%202025-10-30%20221541.png)
 
 ----
 
