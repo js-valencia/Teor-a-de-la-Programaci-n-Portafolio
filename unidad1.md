@@ -79,13 +79,13 @@ Existen varias herramientas como Sratch o Blocky Games, que ayudan al aprendizaj
 
 A continuación, presentaremos imagenes de la página de Blocky Games, y veremos como funciona:
 
-1)🎵 [Blocky Game](https://github.com/js-valencia/Teor-a-de-la-Programaci-n-Portafolio/blob/main/Unidad1/programación_por_bloques1.png)
+1.🎵 [Blocky Game](https://github.com/js-valencia/Teor-a-de-la-Programaci-n-Portafolio/blob/main/Unidad1/programación_por_bloques1.png)
 En la primera imagen, tenemos una serie de notas musicales y un cuadro que nos dice *when play button clicked* que es la acción de darle click al botón.
 
-2) 🧱 [Estructura del Bloque](https://github.com/js-valencia/Teor-a-de-la-Programaci-n-Portafolio/blob/main/Unidad1/programación_por_bloques2.png)
+2. 🧱 [Estructura del Bloque](https://github.com/js-valencia/Teor-a-de-la-Programaci-n-Portafolio/blob/main/Unidad1/programación_por_bloques2.png)
 En la segunda imagen, se presenta el bloque realizado, en cada cuadro dentro del bloque *when play button clicked*, y como hay 4 notas musicales agregamos 4 bloques más pequeños que van a seguir las ordenes que le demos.
 
-3) 💻 [Resultado en JavaScript](https://github.com/js-valencia/Teor-a-de-la-Programaci-n-Portafolio/blob/main/Unidad1/programación_por_bloques3.png)
+3. 💻 [Resultado en JavaScript](https://github.com/js-valencia/Teor-a-de-la-Programaci-n-Portafolio/blob/main/Unidad1/programación_por_bloques3.png)
 En la utlima imagen, se presenta el codigo ya resuelto en **JavaScript** si lo hicimos correctamente podremos avanzar al siguente nivel.
 
 En resumen, la programación por bloques facilita el aprendizaje de la lógica y la secuencia de instrucciones, es muy usado en educación y enseñanza básica de programación y permite crear programas rápidamente sin errores de escritura, además de que algunos entornos permiten ver el código real que generan los bloques, como es el caso de BlockyGames con **JavaScript**.
@@ -154,7 +154,7 @@ En la salida, mostramos con la función printf el costo durante un viaje.
 Finalmente, cerramos nuestro programa con **return 0**; que indica que el programa terminó correctamente.
 Para realizar la prueba de escritorio, compilamos con el comando **gcc costo_por_galones.c -o costo_por_galones**, y ejecutamos con el comando **.\costo_por_galones.exe**.
 
-* 💻 [Lenguaje de programación (C)]([https://github.com/js-valencia/Teor-a-de-la-Programaci-n-Portafolio/blob/main/Unidad1/costo_por_galones.c)
+* 💻 [Lenguaje de programación (C)](https://github.com/js-valencia/Teor-a-de-la-Programaci-n-Portafolio/blob/main/Unidad1/costo_por_galones.c)
 * 💻 [Compilador de C](https://github.com/js-valencia/Teor-a-de-la-Programaci-n-Portafolio/blob/main/Unidad1/Captura%20de%20pantalla%202025-10-30%20221541.png)
 
 ----
