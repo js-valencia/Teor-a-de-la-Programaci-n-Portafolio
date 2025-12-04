@@ -23,17 +23,17 @@
 ---
 
 
-## Unidad 1: Fundamentos 🏁
+## Unidad 1: Fundamentos de Algoritmos y Programas 🏁
 
-* [Unidad 1: Fundamentos](unidad1.md)
+* [Unidad 1: Fundamentos de Algoritmos y Programas](unidad1.md)
 
-## Unidad 2: Paradigmas de Programación 🧩
+## Unidad 2: Estructuras Algorítmicas de Control 🧩
 
+* [Unidad 2: Estructuras Algorítmicas de Control](unidad2.md)
 
+## Unidad 3: Programación modular y estructura de datos estáticas ⚙️
 
-## Unidad 3: Lenguajes y Compiladores ⚙️
-
-
+* Unidad 3: Programación modular y estructura de datos estáticas
 
 ## Conclusiones 💡
 
