@@ -69,7 +69,7 @@ int main(void) {
 }
 ```
 
-### Estructura Condicional Triple
+### Estructura Condicional Multiple
 
 Es  aquella que  permite escoger  entre  dos  o más opciones.  La estructura switch valida la opción que se encuentra dentro del paréntesis y el resultado ejecuta  el  conjunto  de  instrucciones  seleccionada  por  la  opción  antes  mencionada [4].
 
@@ -136,6 +136,11 @@ int main(void) {
 
 # Estructuras Repetitivas
 
+Las **estructuras condicionales repetitivas** son aquellas que permiten ejecutar un conjunto de instrucciones varias veces, ya sea mientras se cumpla una condición o durante un número determinado de iteraciones. Son fundamentales cuando se necesita procesar listas de datos, repetir cálculos o automatizar tareas dentro de un algoritmo.
+
+### Estructuras Repetitivas Mientras
+
+Es un conjunto de sentencias dentro del while se ejecuta mientras la expresión booleana que controla el ciclo while es verdadera [4].
 
 
 ----
