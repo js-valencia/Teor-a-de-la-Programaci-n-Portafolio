@@ -25,7 +25,7 @@ Las **estructuras condicionales**  permiten que un programa tome deciciones dura
 Es  aquella  que  después  de  evaluar  una  condición  booleana determina  su  valor  y  ejecuta  las  instrucciones  cuando  la  condición  es  verdadera [4].
 En esta estructura, la condición pasa a evaluar dentro de un *if*, si la condición es verdadera se ejecuta un bloque de instrucciones, si la condición es falsa, se sale de la condición.
 
-* **Ejercicio:** Determinar si un número ingresado por el usuario es *mayor a 100*.
+* **Problema:** Determinar si un número ingresado por el usuario es *mayor a 100*.
 
 ```c
 #include <stdio.h>
@@ -46,6 +46,25 @@ return 0;
 ### Estructura Condicional Doble
 
 En esta estructura, la condicion pasa a evaluar dentro de un *if*, si al condición es verdadera, se ejecuta un bloque de instrucciones, si la condición es falsa pasa a ejecutar el bloque de instrucciones que estan dentro de *else*.
+
+* **Problema:** Ingresar la edad de una persona y determinar si es *mayor de edad* (≥18) o *menor de edad*.
+
+```c
+#include <stdio.h>
+
+int main(void) {
+
+   int edad;
+   scanf("%d", &edad);
+
+   if (edad >= 18) {
+      printf("Tu edad es: %d\nEres mayor de edad", edad);
+   } else {
+      printf("Tu edad es: %d\nEres menor de edad", edad);
+   }
+return 0;
+}
+```
 
 ### Estructura Condicional Triple
 
