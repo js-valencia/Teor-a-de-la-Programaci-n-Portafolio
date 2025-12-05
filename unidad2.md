@@ -138,10 +138,38 @@ int main(void) {
 
 Las **estructuras condicionales repetitivas** son aquellas que permiten ejecutar un conjunto de instrucciones varias veces, ya sea mientras se cumpla una condición o durante un número determinado de iteraciones. Son fundamentales cuando se necesita procesar listas de datos, repetir cálculos o automatizar tareas dentro de un algoritmo.
 
-### Estructuras Repetitivas Mientras
+### Estructuras Repetitivas While
 
 Es un conjunto de sentencias dentro del while se ejecuta mientras la expresión booleana que controla el ciclo while es verdadera [4].
 
+En esta estructura, la condición *while*  lee la condición, si esta condición es verdadera pasa al bloque de intrucciones en esta sentencia; una vez hecho este bloque nuevamente evalua la condición y así sucesivamente hasta que la condición sea falsa para salir del bucle.
+
+* **Problema:** Pedir al usuario un número y seguir solicitando otro mientras el número ingresado sea *negativo*.
+
+```c
+#include <stdio.h>
+
+int main(void) {
+
+   int num;
+
+   scanf("%d", &num);
+
+   while (num >= 0) {
+      printf("Numero ingresado: %d\n", num);
+      scanf("%d", &num);
+   }
+
+   printf("Fin del programa.\n");
+   
+   return 0;
+}
+```
+### Estructuras Repetitivas Do While
+
+
+
+### Estructuras Repetitivas For
 
 ----
 
