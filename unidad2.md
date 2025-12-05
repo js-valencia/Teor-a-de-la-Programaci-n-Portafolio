@@ -36,8 +36,8 @@ int main(void) {
    int num;
    scanf("%d", &num);
 
-   if (num1 > 100) {
-      printf("El numero %d es mayor a 100");
+   if (num > 100) {
+      printf("El numero %d es mayor a 100", num);
    }
 
    return 0;
@@ -96,7 +96,7 @@ int main(void) {
 
    int comida;
 
-   printff("Lista de Comidas\n");
+   printf("Lista de Comidas\n");
    printf("1. Hamburguesas\n");
    printf("2. Papas fritas\n");
    printf("3. Refresco\n");
@@ -108,24 +108,25 @@ int main(void) {
    getchar();
 
    switch(comida){
-   case '1':
-      printf("Elegiste: Hamburguesas");
-      break;
-   case '2':
-      printf("Elegiste: Papas fritas");
-      break;
-   case '3':
-      printf("Elegiste: Refresco");
-      break;
-   case '4':
-      printf(("Elegiste: Helado");
-      break;
-   case '5';
-      printf("Elegiste: Combo");
-      break;
-   default:
-      printf("Opción Invalida");   
-   }
+        case 1:
+            printf("Elegiste: Hamburguesas");
+            break;
+        case 2:
+            printf("Elegiste: Papas fritas");
+            break;
+        case 3:
+            printf("Elegiste: Refresco");
+            break;
+        case 4:
+            printf("Elegiste: Helado");
+            break;
+        case 5:
+            printf("Elegiste: Combo");
+            break;
+        default:
+            printf("Opcion Invalida");   
+            break;
+    }
 
    return 0;
 }
