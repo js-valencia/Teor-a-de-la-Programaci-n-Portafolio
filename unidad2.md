@@ -15,3 +15,40 @@
 * **Tareas entregadas**
 
 ----
+
+# Estructuras Condicionales
+
+
+
+----
+
+# Estructuras Repetitivas
+
+
+
+----
+
+# Ejercicio Combinado Estructura Condicional y Repetitiva
+
+
+
+----
+
+# Principales Dificultades en la Aplicación de los Contenidos
+
+
+
+----
+
+# Reflexión Crítica de los Aprendizajes de la Unidad
+
+
+----
+
+# Tareas Entregadas
+
+
+
+----
+
+
