@@ -22,7 +22,26 @@ Las **estructuras condicionales**  permiten que un programa tome deciciones dura
 
 ### Estructura Condicional Simple
 
+Es  aquella  que  después  de  evaluar  una  condición  booleana determina  su  valor  y  ejecuta  las  instrucciones  cuando  la  condición  es  verdadera [4].
 En esta estructura, la condición pasa a evaluar dentro de un *if*, si la condición es verdadera se ejecuta un bloque de instrucciones, si la condición es falsa, se sale de la condición.
+
+* **Ejercicio:** Determinar si un número ingresado por el usuario es *mayor a 100*.
+
+```c
+#include <stdio.h>
+
+int main(void) {
+
+   int num;
+   scanf("%d", &num);
+
+   if (num1 > 100) {
+      printf("El numero %d es mayor a 100");
+   }
+
+return 0;
+}
+```
 
 ### Estructura Condicional Doble
 
