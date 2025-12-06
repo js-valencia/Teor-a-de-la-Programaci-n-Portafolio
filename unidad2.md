@@ -16,11 +16,11 @@
 
 ----
 
-# Estructuras Condicionales
+# Estructuras Condicionales ⚙️🤖
 
 Las **estructuras condicionales**  permiten que un programa tome decisiones durante la ejecución de la misma, permitiéndole elegir entre dos caminos, *verdadero* o *falso*, además de que son esenciales para resolver problemas donde se requiere evaluar situaciones, comparar valores o verificar el cumplimiento de ciertas reglas.
 
-### Estructura Condicional Simple
+### Estructura Condicional Simple 🟢
 
 Es aquella que después de evaluar una condición booleana determina su valor y ejecuta las instrucciones cuando la condición es verdadera [4].
 
@@ -44,7 +44,7 @@ int main(void) {
 }
 ```
 
-### Estructura Condicional Doble
+### Estructura Condicional Doble 🔄
 
 Es aquella que permite evaluar una condición y elegir entre 2 opciones (verdadera y falsa) [4].
 
@@ -69,7 +69,7 @@ int main(void) {
 }
 ```
 
-### Estructura Condicional Multiple
+### Estructura Condicional Multiple 🔢➡️
 
 Es aquella que permite escoger entre dos o más opciones. La estructura switch valida la opción que se encuentra dentro del paréntesis y el resultado ejecuta el conjunto de instrucciones  seleccionado por la opción antes mencionada [4].
 
@@ -134,11 +134,11 @@ int main(void) {
 
 ----
 
-# Estructuras Repetitivas
+# Estructuras Repetitivas 🔁
 
 Las **estructuras condicionales repetitivas** son aquellas que permiten ejecutar un conjunto de instrucciones varias veces, ya sea mientras se cumpla una condición o durante un número determinado de iteraciones. Son fundamentales cuando se necesita procesar listas de datos, repetir cálculos o automatizar tareas dentro de un algoritmo.
 
-### Estructuras Repetitivas While
+### Estructuras Repetitivas While 🔄⏳
 
 Es un conjunto de sentencias dentro del while se ejecuta mientras la expresión booleana que controla el ciclo while es verdadera [4].
 
@@ -165,7 +165,7 @@ int main(void) {
    return 0;
 }
 ```
-### Estructuras Repetitivas Do While
+### Estructuras Repetitivas Do While 🔁✨
 
 Tiene una forma diferente al momento de ejecutarse, es importante indicar que en la estructura do-while realiza un conjunto de instrucciones y después se evalúa la condición, esto quiere decir que si la condición resulta ser falsa el conjunto de instrucciones se ejecutará al menos una vez [4].
 
@@ -199,9 +199,9 @@ int main(void) {
 }
 ```
 
-### Estructuras Repetitivas For
+### Estructuras Repetitivas For 🎯🧮
 
-El bucle for se utiliza mejor para bucles controlados por contadores, donde un conjunto de declaraciones se ejecuta una vez para cada valor en un rango específico [4].
+El bucle `for` se utiliza mejor para bucles controlados por contadores, donde un conjunto de declaraciones se ejecuta una vez para cada valor en un rango específico [4].
 
 Para esta estructura iniciamos el bucle con un *for*, y tiene que tener tres expresiones, en la primera expresión damos el valor del contador, en la seguna expresión se ubica la condición y en la tercera expresión se incrementa o decrementa el contador; despues ponemos el bloque de instrucciones que debemos evaluar.
 
@@ -230,19 +230,19 @@ int main(void) {
 
 ----
 
-# Ejercicio Combinado Estructura Condicional y Repetitiva
+# Ejercicio Combinado Estructura Condicional y Repetitiva 🤝🧠
 
 El siguiente ejercicio lo realizaremos en el lenguaje Python.
 
-### Descripción del Problema
+### Descripción del Problema 📝
 
 Crear un programa en Python que solicite al usuario ingresar varios números enteros. El programa debe seguir pidiendo números mientras el usuario no ingrese un 0, ya que este servirá como condición de salida. Durante el proceso, el programa debe sumar únicamente los números positivos. Si el usuario ingresa un número negativo, se mostrará un mensaje indicando que dicho número no será sumado. Al finalizar, el programa debe mostrar la suma total de todos los números positivos ingresados.
 
-### Diagrama de Flujo Simplificado
+### Diagrama de Flujo Simplificado 🔄📈
 
-* [Diagrama de Flujo](https://github.com/js-valencia/Teor-a-de-la-Programaci-n-Portafolio/blob/main/Unidad%202/diagrama_de_flujo_py.png)
+* 📄 [Diagrama de Flujo](https://github.com/js-valencia/Teor-a-de-la-Programaci-n-Portafolio/blob/main/Unidad%202/diagrama_de_flujo_py.png)
 
-### Programa
+### Programa 💻️
 
 ```python
 suma = 0
@@ -260,13 +260,13 @@ while num != 0:
 print("La suma total es: ", suma)
 ```
 
-### Verificación
+### Verificación 🐍⚙
 
-* [Ejecución del Programa](https://github.com/js-valencia/Teor-a-de-la-Programaci-n-Portafolio/blob/main/Unidad%202/Terminal.png)
+* 📄 [Ejecución del Programa](https://github.com/js-valencia/Teor-a-de-la-Programaci-n-Portafolio/blob/main/Unidad%202/Terminal.png)
 
 ----
 
-# Principales Dificultades en la Aplicación de los Contenidos
+# Principales Dificultades en la Aplicación de los Contenidos ⚠️🧩
 
 Durante el desarrollo de la unidad se presentaron varias dificultades relacionadas con la comprensión y aplicación de las estructuras condicionales y repetitivas. Entre las más importantes se encuentran:
 
@@ -289,7 +289,7 @@ Estas dificultades, aunque fueron algo complicadas de enfrentar, permitieron for
 
 ----
 
-# Reflexión Crítica de los Aprendizajes de la Unidad
+# Reflexión Crítica de los Aprendizajes de la Unidad 🧠📘✨
 
 A lo largo de esta unidad se lograron desarrollar habilidades fundamentales para la construcción de algoritmos y programas básicos con estructuras **condicionales** y **repetitivas** que permitió comprender cómo los programas toman decisiones y cómo se pueden automatizar tareas mediante ciclos. Estos contenidos, aunque al inicio resultaron complejos, fueron esenciales para fortalecer el pensamiento lógico y la capacidad de resolver problemas de forma estructurada.
 
@@ -299,11 +299,11 @@ Uno de los aprendizajes más significativos fue entender la importancia de elegi
 
 # Tareas Entregadas
 
-* [APE 1: Aplicación de estructuras condicionales en la resolución de problemas](https://github.com/js-valencia/Teor-a-de-la-Programaci-n-Portafolio/blob/main/Unidad%202/Estructuras_Condicionales_APE1_U2_JoséValencia.pdf)
-* [APE 2: Aplicación de estructuras repetitivas en la resolución de problemas](https://github.com/js-valencia/Teor-a-de-la-Programaci-n-Portafolio/blob/main/Unidad%202/Estructuras_Repetitivas_APE2_U2_JoséValencia.pdf)
+* 📄 [APE 1: Aplicación de estructuras condicionales en la resolución de problemas](https://github.com/js-valencia/Teor-a-de-la-Programaci-n-Portafolio/blob/main/Unidad%202/Estructuras_Condicionales_APE1_U2_JoséValencia.pdf)
+* 📄 [APE 2: Aplicación de estructuras repetitivas en la resolución de problemas](https://github.com/js-valencia/Teor-a-de-la-Programaci-n-Portafolio/blob/main/Unidad%202/Estructuras_Repetitivas_APE2_U2_JoséValencia.pdf)
 
-* [AA 1: Diferencias entre los tipos de estructuras condicionales](https://github.com/js-valencia/Teor-a-de-la-Programaci-n-Portafolio/blob/main/Unidad%202/Tipos_Estructuras_Condicionales_U2_AA_JoséValencia.pdf)
-* [AA 2: Cuadro comparativo entre las estructuras repetitivas](https://github.com/js-valencia/Teor-a-de-la-Programaci-n-Portafolio/blob/main/Unidad%202/Estructuras_Repetitivas_AA2_U2_JoseValencia.pdf)
+* 📄 [AA 1: Diferencias entre los tipos de estructuras condicionales](https://github.com/js-valencia/Teor-a-de-la-Programaci-n-Portafolio/blob/main/Unidad%202/Tipos_Estructuras_Condicionales_U2_AA_JoséValencia.pdf)
+* 📄 [AA 2: Cuadro comparativo entre las estructuras repetitivas](https://github.com/js-valencia/Teor-a-de-la-Programaci-n-Portafolio/blob/main/Unidad%202/Estructuras_Repetitivas_AA2_U2_JoseValencia.pdf)
 
 ----
 
