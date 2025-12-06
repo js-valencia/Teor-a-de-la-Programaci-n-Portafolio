@@ -271,7 +271,7 @@ print("La suma total es: ", suma)
 Durante el desarrollo de la unidad se presentaron varias dificultades relacionadas con la comprensión y aplicación de las estructuras condicionales y repetitivas. Entre las más importantes se encuentran:
 
 1. **Comprender la lógica detrás de las condiciones múltiples**  
-   Resultó complicado diferenciar cuándo era más apropiado utilizar `if–else if–else` o un `switch–case`, especialmente en situaciones donde existían varias opciones posibles.
+   Resultó complicado diferenciar cuándo era más apropiado utilizar `if–else` o un `switch–case`, especialmente en situaciones donde existían varias opciones posibles.
 
 2. **Controlar adecuadamente las condiciones de salida en los bucles**
    En las estructuras repetitivas, como `while` y `do–while`, una de las principales dificultades fue identificar correctamente la condición que determina cuándo el ciclo debe detenerse, evitando bucles infinitos.
@@ -285,10 +285,15 @@ Durante el desarrollo de la unidad se presentaron varias dificultades relacionad
 5. **Traducción de un algoritmo a código en distintos lenguajes**  
    Pasar un mismo ejercicio a lenguajes como C o Python implicó adaptarse a diferentes sintaxis y formas de estructurar las instrucciones, lo cual requirió práctica adicional.
 
+Estas dificultades, aunque fueron algo complicadas de enfrentar, permitieron fortalecer el razonamiento lógico y mejorar la capacidad para diseñar soluciones más claras y eficientes.
+
 ----
 
 # Reflexión Crítica de los Aprendizajes de la Unidad
 
+A lo largo de esta unidad se lograron desarrollar habilidades fundamentales para la construcción de algoritmos y programas básicos con estructuras **condicionales** y **repetitivas** que permitió comprender cómo los programas toman decisiones y cómo se pueden automatizar tareas mediante ciclos. Estos contenidos, aunque al inicio resultaron complejos, fueron esenciales para fortalecer el pensamiento lógico y la capacidad de resolver problemas de forma estructurada.
+
+Uno de los aprendizajes más significativos fue entender la importancia de elegir adecuadamente la estructura de control según la necesidad del problema. La experiencia demostró que no siempre la primera solución es la más eficiente y que es necesario analizar el programa antes de implementarlo. Además, el uso de diferentes lenguajes como C y Python facilitó reconocer que, aunque la sintaxis cambia, la lógica detrás de los algoritmos es la misma.
 
 ----
 
