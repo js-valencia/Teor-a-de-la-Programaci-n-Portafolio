@@ -28,6 +28,10 @@ En esta estructura, la condición pasa a evaluar dentro de un *if*, si la condic
 
 * **Problema:** Determinar si un número ingresado por el usuario es *mayor a 100*.
 
+* 📄 [Diagrama de Flujo](https://github.com/js-valencia/Teor-a-de-la-Programaci-n-Portafolio/blob/main/Unidad%202/diagrama_1.png)
+
+* **Código**
+
 ```c
 #include <stdio.h>
 
@@ -51,6 +55,10 @@ Es aquella que permite evaluar una condición y elegir entre 2 opciones (verdade
 En esta estructura, la condición pasa a evaluar dentro de un *if*, si la condición es verdadera, se ejecuta un bloque de instrucciones, si la condición es falsa pasa a ejecutarse el bloque de instrucciones que están dentro de *else*.
 
 * **Problema:** Ingresar la edad de una persona y determinar si es *mayor de edad* (≥18) o *menor de edad*.
+
+* 📄 [Diagrama de Flujo](https://github.com/js-valencia/Teor-a-de-la-Programaci-n-Portafolio/blob/main/Unidad%202/diagrama_2.png)
+
+* **Código**
 
 ```c
 #include <stdio.h>
@@ -88,6 +96,10 @@ En esta estructura, la condición *switch* pasa a evaluar una variable dentro de
 5 → “Combo”
 
 Si el usuario ingresa un número fuera del rango, mostrar: “Opción inválida”.
+
+* 📄 [Diagrama de Flujo](https://github.com/js-valencia/Teor-a-de-la-Programaci-n-Portafolio/blob/main/Unidad%202/diagrama_3.png)
+
+* **Código**
 
 ```c
 #include <stdio.h>
@@ -146,6 +158,10 @@ En esta estructura, la condición *while*  lee la condición, si esta condición
 
 * **Problema:** Pedir al usuario un número y seguir solicitando otro mientras el número ingresado sea *negativo*.
 
+* 📄 [Diagrama de Flujo](https://github.com/js-valencia/Teor-a-de-la-Programaci-n-Portafolio/blob/main/Unidad%202/diagrama_4.png)
+
+* **Código**
+
 ```c
 #include <stdio.h>
 
@@ -172,6 +188,10 @@ Tiene una forma diferente al momento de ejecutarse, es importante indicar que en
 Esta estructura comienza con un *do* y el bloque de instrucciones, después se ubica un while seguido de la condición a evaluar, si la condición es verdadera, se repite el bloque de instrucciones dentro del do y así sucesivamente, y si es falsa termina el bucle y continúa con el programa.
 
 * **Problema:** Crear un programa que pida al usuario una contraseña (número). El programa debe seguir pidiendo la contraseña hasta que el usuario ingrese el valor correcto.  
+
+* 📄 [Diagrama de Flujo](https://github.com/js-valencia/Teor-a-de-la-Programaci-n-Portafolio/blob/main/Unidad%202/diagrama_5.png)
+
+* **Código**
 
 ```c
 #include <stdio.h>
@@ -206,6 +226,10 @@ El bucle `for` se utiliza mejor para bucles controlados por contadores, donde un
 Para esta estructura iniciamos el bucle con un *for*, y tiene que tener tres expresiones, en la primera expresión damos el valor del contador, en la seguna expresión se ubica la condición y en la tercera expresión se incrementa o decrementa el contador; despues ponemos el bloque de instrucciones que debemos evaluar.
 
 * **Problema:** Solicitar un número entero positivo y mostrar todos los números desde *1 hasta ese número*.
+
+* 📄 [Diagrama de Flujo](https://github.com/js-valencia/Teor-a-de-la-Programaci-n-Portafolio/blob/main/Unidad%202/diagrama_6.png)
+
+* **Código**
 
 ```c
 #include <stdio.h>
