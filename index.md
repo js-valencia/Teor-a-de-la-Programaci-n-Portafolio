@@ -39,6 +39,9 @@
 
 En esta primera unidad comprendí acerca de los fundamentos de la creación de *algoritmos*, *pseudocódigo*, *diagramas de flujo*, y *programación por bloques* para la facilidad de comprender sistemas computacionales de una manera rápida, sencilla y eficáz para su completo aprendizaje. Cada tema aportó una forma distinta de representar soluciones como los algoritmos que brindan lógica, el pseudocódigo la estructura, los diagramas de flujo la visualización, y la programación por bloques la práctica interactiva. En conjunto, todos estos recursos fortalecen el **pensamiento lógico**, la **capacidad de análisis** y la **organización de procesos**.
 
+En esta segunda unidad me permitió entender y aplicar de manera efectiva las estructuras *condicionales* y *repetitivas*, fortaleciendo el razonamiento lógico y la capacidad para resolver problemas mediante algoritmos bien organizados. Gracias a los ejercicios prácticos, se logró identificar cuándo usar cada estructura, cómo controlar adecuadamente el flujo del programa y cómo validar datos para evitar errores frecuentes. En conjunto, estos aprendizajes sentaron una base sólida para continuar desarrollando habilidades de programación más avanzadas.
+
+
 ## Referencias 📚
 
 [[1]	E. N. F. Piscoya, “FUNDAMENTOS DE PROGRAMACIÓN. Un enfoque práctico.,” FUNDAMENTOS DE PROGRAMACIÓN. Un enfoque práctico., Jan. 2021, Accessed: Oct. 26, 2025. [Online]. Available: https://www.academia.edu/103779068/FUNDAMENTOS_DE_PROGRAMACI%C3%93N_Un_enfoque_pr%C3%A1ctico
