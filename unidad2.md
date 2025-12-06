@@ -167,9 +167,66 @@ int main(void) {
 ```
 ### Estructuras Repetitivas Do While
 
+Tiene una forma diferente al momento de ejecutarse, es importante indicar que en la estructura do-while realiza un conjunto de instrucciones y después se evalúa la condición, esto quiere decir que si la condicional resulta ser falsa el conjunto de instrucciones se ejecutaron al menos 1 vez [4].
 
+Esta estructura comienza con un *do* y seguido el bloque de instrucciones, después se ubica un while seguido de la condición a evaluar, si la condición es verdadera, se repite el bloque de instrucciones dentro del do y así susesivamente, y si es falsa termina el bucle y continua con el programa.
+
+* **Problema:** Crear un programa que pida al usuario una contraseña (número). El programa debe seguir pidiendo la contraseña hasta que el usuario ingrese el valor correcto.  
+
+```c
+#include <stdio.h>
+
+int main(void) {
+
+   int pasword;
+   int intento;
+
+   pasword = 1234;    // Contraseña correcta
+
+   do {
+       printf("Ingrese la contrasena de 4 digitos: ");
+       scanf("%d", &intento);
+
+       if (intento != pasword) {
+           printf("Contrasena incorrecta. Intente de nuevo.\n");
+       }
+
+   } while (intento != pasword);
+
+   printf("Bienvenido! Ha ingresado la contrasena correcta.\n");
+
+   return 0;
+}
+```
 
 ### Estructuras Repetitivas For
+
+El bucle for se utiliza mejor para bucles controlados por contadores, donde un conjunto de declaraciones se ejecuta una vez para cada valor en un rango específico [4].
+
+Para esta estructura iniciamos el bucle con un *for*, y tiene que tener tres expresiones, en la primera expresión damos el valor del contador, en la seguna expresión se ubica la condición y en la tercera expresión se incrementa o decrementa el contador; despues ponemos el bloque de instrucciones que debemos evaluar.
+
+* **Problema:** Solicitar un número entero positivo y mostrar todos los números desde *1 hasta ese número*.
+
+```c
+#include <stdio.h>
+
+int main(void) {
+
+   int i;
+   int num;
+
+   printf("Ingrese un numero entero positivo: ");
+   scanf("%d", &num);
+   getchar();
+
+   for (i = 1; i <= num; i++) {
+      printf("%d\n", i);
+   }
+
+   return 0;
+
+}
+```
 
 ----
 
