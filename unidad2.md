@@ -240,7 +240,7 @@ Crear un programa en Python que solicite al usuario ingresar varios números ent
 
 ### Diagrama de Flujo Simplificado
 
-* [Diagrama de Flujo]()
+* [Diagrama de Flujo](https://github.com/js-valencia/Teor-a-de-la-Programaci-n-Portafolio/blob/main/Unidad%202/diagrama_de_flujo_py.png)
 
 ### Programa
 
@@ -262,13 +262,28 @@ print("La suma total es: ", suma)
 
 ### Verificación
 
-* [Ejecución del Programa]()
+* [Ejecución del Programa](https://github.com/js-valencia/Teor-a-de-la-Programaci-n-Portafolio/blob/main/Unidad%202/Terminal.png)
 
 ----
 
 # Principales Dificultades en la Aplicación de los Contenidos
 
+Durante el desarrollo de la unidad se presentaron varias dificultades relacionadas con la comprensión y aplicación de las estructuras condicionales y repetitivas. Entre las más importantes se encuentran:
 
+1. **Comprender la lógica detrás de las condiciones múltiples**  
+   Resultó complicado diferenciar cuándo era más apropiado utilizar `if–else if–else` o un `switch–case`, especialmente en situaciones donde existían varias opciones posibles.
+
+2. **Controlar adecuadamente las condiciones de salida en los bucles**
+   En las estructuras repetitivas, como `while` y `do–while`, una de las principales dificultades fue identificar correctamente la condición que determina cuándo el ciclo debe detenerse, evitando bucles infinitos.
+
+3. **Distinguir cuándo usar cada tipo de bucle**  
+   Seleccionar entre `for`, `while` o `do–while` fue un reto, ya que cada uno se adapta mejor a distintos escenarios. Comprender estas diferencias fue esencial para resolver los ejercicios correctamente.
+
+4. **Validación de datos ingresados por el usuario**  
+   En varios ejercicios se exigía verificar si los valores ingresados eran válidos (por ejemplo, evitar valores negativos o fuera de rango). Incorporar estas validaciones dentro de las estructuras condicionales generó dificultades iniciales.
+
+5. **Traducción de un algoritmo a código en distintos lenguajes**  
+   Pasar un mismo ejercicio a lenguajes como C o Python implicó adaptarse a diferentes sintaxis y formas de estructurar las instrucciones, lo cual requirió práctica adicional.
 
 ----
 
