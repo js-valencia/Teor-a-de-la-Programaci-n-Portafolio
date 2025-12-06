@@ -30,7 +30,7 @@ En esta estructura, la condición pasa a evaluar dentro de un *if*, si la condic
 
 * 📄 [Diagrama de Flujo](https://github.com/js-valencia/Teor-a-de-la-Programaci-n-Portafolio/blob/main/Unidad%202/diagrama_1.png)
 
-* **Código**
+* 💻️ **Código:**
 
 ```c
 #include <stdio.h>
@@ -58,7 +58,7 @@ En esta estructura, la condición pasa a evaluar dentro de un *if*, si la condic
 
 * 📄 [Diagrama de Flujo](https://github.com/js-valencia/Teor-a-de-la-Programaci-n-Portafolio/blob/main/Unidad%202/diagrama_2.png)
 
-* **Código**
+* 💻️ **Código:**
 
 ```c
 #include <stdio.h>
@@ -99,7 +99,7 @@ Si el usuario ingresa un número fuera del rango, mostrar: “Opción inválida�
 
 * 📄 [Diagrama de Flujo](https://github.com/js-valencia/Teor-a-de-la-Programaci-n-Portafolio/blob/main/Unidad%202/diagrama_3.png)
 
-* **Código**
+*  💻️ **Código:**
 
 ```c
 #include <stdio.h>
@@ -160,7 +160,7 @@ En esta estructura, la condición *while*  lee la condición, si esta condición
 
 * 📄 [Diagrama de Flujo](https://github.com/js-valencia/Teor-a-de-la-Programaci-n-Portafolio/blob/main/Unidad%202/diagrama_4.png)
 
-* **Código**
+* 💻️ **Código:**
 
 ```c
 #include <stdio.h>
@@ -191,7 +191,7 @@ Esta estructura comienza con un *do* y el bloque de instrucciones, después se u
 
 * 📄 [Diagrama de Flujo](https://github.com/js-valencia/Teor-a-de-la-Programaci-n-Portafolio/blob/main/Unidad%202/diagrama_5.png)
 
-* **Código**
+* 💻️ **Código:**
 
 ```c
 #include <stdio.h>
@@ -229,7 +229,7 @@ Para esta estructura iniciamos el bucle con un *for*, y tiene que tener tres exp
 
 * 📄 [Diagrama de Flujo](https://github.com/js-valencia/Teor-a-de-la-Programaci-n-Portafolio/blob/main/Unidad%202/diagrama_6.png)
 
-* **Código**
+* 💻️ **Código:**
 
 ```c
 #include <stdio.h>
