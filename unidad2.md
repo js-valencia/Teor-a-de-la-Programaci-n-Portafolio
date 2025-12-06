@@ -18,11 +18,11 @@
 
 # Estructuras Condicionales
 
-Las **estructuras condicionales**  permiten que un programa tome deciciones durante la ejecución de la misma permitiendole elegir entre dos caminos, *verdadero* o *falso*, además que son esenciales para resolver problemas donde se requiere evaluar situaciones, comparar valores o verificar el cumplimiento de ciertas reglas.
+Las **estructuras condicionales**  permiten que un programa tome decisiones durante la ejecución de la misma, permitiéndole elegir entre dos caminos, *verdadero* o *falso*, además de que son esenciales para resolver problemas donde se requiere evaluar situaciones, comparar valores o verificar el cumplimiento de ciertas reglas.
 
 ### Estructura Condicional Simple
 
-Es  aquella  que  después  de  evaluar  una  condición  booleana determina  su  valor  y  ejecuta  las  instrucciones  cuando  la  condición  es  verdadera [4].
+Es aquella que después de evaluar una condición booleana determina su valor y ejecuta las instrucciones cuando la condición es verdadera [4].
 
 En esta estructura, la condición pasa a evaluar dentro de un *if*, si la condición es verdadera se ejecuta un bloque de instrucciones, si la condición es falsa, se sale de la condición.
 
@@ -46,9 +46,9 @@ int main(void) {
 
 ### Estructura Condicional Doble
 
-Es  aquella que  permite  evaluar  una  condición  y  elegir  entre  2 opciones  (verdadera  y  Falsa) [4].
+Es aquella que permite evaluar una condición y elegir entre 2 opciones (verdadera y falsa) [4].
 
-En esta estructura, la condicion pasa a evaluar dentro de un *if*, si al condición es verdadera, se ejecuta un bloque de instrucciones, si la condición es falsa pasa a ejecutar el bloque de instrucciones que estan dentro de *else*.
+En esta estructura, la condición pasa a evaluar dentro de un *if*, si la condición es verdadera, se ejecuta un bloque de instrucciones, si la condición es falsa pasa a ejecutarse el bloque de instrucciones que están dentro de *else*.
 
 * **Problema:** Ingresar la edad de una persona y determinar si es *mayor de edad* (≥18) o *menor de edad*.
 
@@ -71,9 +71,9 @@ int main(void) {
 
 ### Estructura Condicional Multiple
 
-Es  aquella que  permite escoger  entre  dos  o más opciones.  La estructura switch valida la opción que se encuentra dentro del paréntesis y el resultado ejecuta  el  conjunto  de  instrucciones  seleccionada  por  la  opción  antes  mencionada [4].
+Es aquella que permite escoger entre dos o más opciones. La estructura switch valida la opción que se encuentra dentro del paréntesis y el resultado ejecuta el conjunto de instrucciones  seleccionado por la opción antes mencionada [4].
 
-En esta estructura, la condicion *switch* pasa a evaluar una variable dentro de un numero determinado de casos, pueden ser n casos que se representan con la sintaxis *case 1, case 2, case n*; además, para cada caso hay que ingresar un valor de caso, este valor es estricto y se tiene que cumplir para que pueda ejecutarse como verdadero, caso contrario, evalua el siguiente caso y así hasta llegar al *default* que se ejecuta cuando no cumple con ningun caso.
+En esta estructura, la condición *switch* pasa a evaluar una variable dentro de un número determinado de casos, pueden ser n casos que se representan con la sintaxis *case 1, case 2, case n*; además, para cada caso hay que ingresar un valor de caso, este valor es estricto y se tiene que cumplir para que pueda ejecutarse como verdadero, caso contrario, evalúa el siguiente caso y así hasta llegar al *default* que se ejecuta cuando no cumple con ningún caso.
 
 * **Problema:**  Solicitar al usuario un número del 1 al 5 y mostrar:
 
@@ -142,7 +142,7 @@ Las **estructuras condicionales repetitivas** son aquellas que permiten ejecutar
 
 Es un conjunto de sentencias dentro del while se ejecuta mientras la expresión booleana que controla el ciclo while es verdadera [4].
 
-En esta estructura, la condición *while*  lee la condición, si esta condición es verdadera pasa al bloque de intrucciones en esta sentencia; una vez hecho este bloque nuevamente evalua la condición y así sucesivamente hasta que la condición sea falsa para salir del bucle.
+En esta estructura, la condición *while*  lee la condición, si esta condición es verdadera pasa al bloque de instrucciones en esta sentencia; una vez hecho este bloque nuevamente evalúa la condición y así sucesivamente hasta que la condición sea falsa para salir del bucle.
 
 * **Problema:** Pedir al usuario un número y seguir solicitando otro mientras el número ingresado sea *negativo*.
 
@@ -167,9 +167,9 @@ int main(void) {
 ```
 ### Estructuras Repetitivas Do While
 
-Tiene una forma diferente al momento de ejecutarse, es importante indicar que en la estructura do-while realiza un conjunto de instrucciones y después se evalúa la condición, esto quiere decir que si la condicional resulta ser falsa el conjunto de instrucciones se ejecutaron al menos 1 vez [4].
+Tiene una forma diferente al momento de ejecutarse, es importante indicar que en la estructura do-while realiza un conjunto de instrucciones y después se evalúa la condición, esto quiere decir que si la condición resulta ser falsa el conjunto de instrucciones se ejecutará al menos una vez [4].
 
-Esta estructura comienza con un *do* y seguido el bloque de instrucciones, después se ubica un while seguido de la condición a evaluar, si la condición es verdadera, se repite el bloque de instrucciones dentro del do y así susesivamente, y si es falsa termina el bucle y continua con el programa.
+Esta estructura comienza con un *do* y el bloque de instrucciones, después se ubica un while seguido de la condición a evaluar, si la condición es verdadera, se repite el bloque de instrucciones dentro del do y así sucesivamente, y si es falsa termina el bucle y continúa con el programa.
 
 * **Problema:** Crear un programa que pida al usuario una contraseña (número). El programa debe seguir pidiendo la contraseña hasta que el usuario ingrese el valor correcto.  
 
