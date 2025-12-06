@@ -297,7 +297,7 @@ Uno de los aprendizajes más significativos fue entender la importancia de elegi
 
 ----
 
-# Tareas Entregadas
+# Tareas Entregadas 📚📎
 
 * 📄 [APE 1: Aplicación de estructuras condicionales en la resolución de problemas](https://github.com/js-valencia/Teor-a-de-la-Programaci-n-Portafolio/blob/main/Unidad%202/Estructuras_Condicionales_APE1_U2_JoséValencia.pdf)
 * 📄 [APE 2: Aplicación de estructuras repetitivas en la resolución de problemas](https://github.com/js-valencia/Teor-a-de-la-Programaci-n-Portafolio/blob/main/Unidad%202/Estructuras_Repetitivas_APE2_U2_JoséValencia.pdf)
