@@ -50,6 +50,8 @@ En esta segunda unidad me permitió entender y aplicar de manera efectiva las es
 
 [3]	M. X. Prado Ortega et al., “Beneficios de la programación por bloques utilizando Sphero mini mediante aprendizaje móvil en la educación superior,” E-Ciencias de la Información, vol. 13, no. 2, pp. 73–96, Jun. 2023, doi: 10.15517/ECI.V13I2.54814. 2023
 
+[4] J. E. Guerra Salazar, M. V. Ramos Valencia, and G. E. Vallejo Vallejo, Programando en C desde la Practica: Problemas Resueltos, 1era ed. Puerto Madero Editorial Académica, 2023. Accessed: Nov. 20, 2025. [Online]. Available: https://puertomaderoeditorial.com.ar/index.php/pmea/catalog/view/36/110/195
+
 ## Uso de IA Comparativa 🤖
 
 Declaro que en la elaboración de este documento utilicé **herramientas de inteligencia artificial (ChatGPT, modelo GPT-5 de OpenAI)** únicamente para **mejorar la redacción, ortografía y formato visual del texto**, sin alterar su contenido original.  La comprensión y el desarrollo de los temas fueron realizados por mi propia autoría.
