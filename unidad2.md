@@ -299,7 +299,11 @@ Uno de los aprendizajes más significativos fue entender la importancia de elegi
 
 # Tareas Entregadas
 
+* [APE 1: Aplicación de estructuras condicionales en la resolución de problemas](https://github.com/js-valencia/Teor-a-de-la-Programaci-n-Portafolio/blob/main/Unidad%202/Estructuras_Condicionales_APE1_U2_JoséValencia.pdf)
+* [APE 2: Aplicación de estructuras repetitivas en la resolución de problemas](https://github.com/js-valencia/Teor-a-de-la-Programaci-n-Portafolio/blob/main/Unidad%202/Estructuras_Repetitivas_APE2_U2_JoséValencia.pdf)
 
+* [AA 1: Diferencias entre los tipos de estructuras condicionales](https://github.com/js-valencia/Teor-a-de-la-Programaci-n-Portafolio/blob/main/Unidad%202/Tipos_Estructuras_Condicionales_U2_AA_JoséValencia.pdf)
+* [AA 2: Cuadro comparativo entre las estructuras repetitivas](https://github.com/js-valencia/Teor-a-de-la-Programaci-n-Portafolio/blob/main/Unidad%202/Estructuras_Repetitivas_AA2_U2_JoseValencia.pdf)
 
 ----
 
