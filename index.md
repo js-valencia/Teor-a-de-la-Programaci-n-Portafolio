@@ -33,14 +33,15 @@
 
 ## Unidad 3: Programación modular y estructura de datos estáticas ⚙️
 
-* Unidad 3: Programación modular y estructura de datos estáticas
+* [Unidad 3: Programación modular y estructura de datos estáticas](unidad3.md)
 
-## Conclusiones 💡
+## Conclusiones Generales💡
 
 En esta primera unidad comprendí acerca de los fundamentos de la creación de *algoritmos*, *pseudocódigo*, *diagramas de flujo*, y *programación por bloques* para la facilidad de comprender sistemas computacionales de una manera rápida, sencilla y eficáz para su completo aprendizaje. Cada tema aportó una forma distinta de representar soluciones como los algoritmos que brindan lógica, el pseudocódigo la estructura, los diagramas de flujo la visualización, y la programación por bloques la práctica interactiva. En conjunto, todos estos recursos fortalecen el **pensamiento lógico**, la **capacidad de análisis** y la **organización de procesos**.
 
 En esta segunda unidad me permitió entender y aplicar de manera efectiva las estructuras *condicionales* y *repetitivas*, fortaleciendo el razonamiento lógico y la capacidad para resolver problemas mediante algoritmos bien organizados. Gracias a los ejercicios prácticos, se logró identificar cuándo usar cada estructura, cómo controlar adecuadamente el flujo del programa y cómo validar datos para evitar errores frecuentes. En conjunto, estos aprendizajes sentaron una base sólida para continuar desarrollando habilidades de programación más avanzadas.
 
+En esta tercera unidad se logró comprender y aplicar de manera efectiva la modularidad y el uso de arreglos en el lenguaje C, lo que permitió desarrollar programas más ordenados y fáciles de entender. A través de la práctica, se aprendió a dividir un problema en funciones y a manejar varios datos de forma estructurada mediante arreglos. Además, el uso del paso de parámetros por valor y por referencia ayudó a entender mejor cómo se manipula la información dentro de un programa. En conjunto, estos aprendizajes fortalecieron la lógica de programación y sentaron una base sólida para abordar problemas más complejos en el futuro.
 
 ## Referencias 📚
 
