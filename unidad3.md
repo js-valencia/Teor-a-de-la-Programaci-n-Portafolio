@@ -90,7 +90,7 @@ En esta imagen, se observa la salida del código por la terminal, y "a" ya no va
 
 # Arreglos 🔁
 
-Las **estructuras condicionales repetitivas** son aquellas que permiten ejecutar un conjunto de instrucciones varias veces, ya sea mientras se cumpla una condición o durante un número determinado de iteraciones. Son fundamentales cuando se necesita procesar listas de datos, repetir cálculos o automatizar tareas dentro de un algoritmo.
+Los **arreglos** en programación son 
 
 ### Estructuras Repetitivas While 🔄⏳
 
@@ -193,42 +193,6 @@ int main(void) {
 
 }
 ```
-
-----
-
-# Ejercicio Combinado Estructura Condicional y Repetitiva 🤝🧠
-
-El siguiente ejercicio lo realizaremos en el lenguaje Python.
-
-### Descripción del Problema 📝
-
-Crear un programa en Python que solicite al usuario ingresar varios números enteros. El programa debe seguir pidiendo números mientras el usuario no ingrese un 0, ya que este servirá como condición de salida. Durante el proceso, el programa debe sumar únicamente los números positivos. Si el usuario ingresa un número negativo, se mostrará un mensaje indicando que dicho número no será sumado. Al finalizar, el programa debe mostrar la suma total de todos los números positivos ingresados.
-
-### Diagrama de Flujo Simplificado 🔄📈
-
-* 📄 [Diagrama de Flujo](https://github.com/js-valencia/Teor-a-de-la-Programaci-n-Portafolio/blob/main/Unidad%202/diagrama_de_flujo_py.png)
-
-### Programa 💻️
-
-```python
-suma = 0
-num = None
-
-while num != 0:
-    num = int(input("Ingrese un valor entero: "))
-
-    if num > 0:
-        suma += num
-    elif num < 0:
-        print("El numero es negativo, no será incrementado")
-
-
-print("La suma total es: ", suma)
-```
-
-### Verificación 🐍⚙
-
-* 📄 [Ejecución del Programa](https://github.com/js-valencia/Teor-a-de-la-Programaci-n-Portafolio/blob/main/Unidad%202/Terminal.png)
 
 ----
 
