@@ -234,32 +234,29 @@ print("La suma total es: ", suma)
 
 # Principales Dificultades en la Aplicación de los Contenidos ⚠️🧩
 
-Durante el desarrollo de la unidad se presentaron varias dificultades relacionadas con la comprensión y aplicación de las estructuras condicionales y repetitivas. Entre las más importantes se encuentran:
+Durante el desarrollo de la unidad se presentaron varias dificultades relacionadas con la comprensión y aplicación de la modularidad y el uso de arreglos en el lenguaje C. Entre las más importantes se encuentran:
 
-1. **Comprender la lógica detrás de las condiciones múltiples**  
-   Resultó complicado diferenciar cuándo era más apropiado utilizar `if–else` o un `switch–case`, especialmente en situaciones donde existían varias opciones posibles.
+1. **Comprender cómo dividir el programa en funciones (modularidad)**
+Al inicio fue complicado identificar qué partes del programa debían convertirse en funciones y cuáles debían permanecer en el programa principal. Organizar el código de forma modular sin perder la lógica general del programa representó un reto importante.
 
-2. **Controlar adecuadamente las condiciones de salida en los bucles**
-   En las estructuras repetitivas, como `while` y `do–while`, una de las principales dificultades fue identificar correctamente la condición que determina cuándo el ciclo debe detenerse, evitando bucles infinitos.
+2. **Uso correcto del paso de parámetros por valor y por referencia**
+Diferenciar cuándo utilizar paso por valor o por referencia generó confusión, especialmente al notar que algunos cambios realizados dentro de una función no se reflejaban fuera de ella. Comprender el uso de punteros fue clave para superar esta dificultad.
 
-3. **Distinguir cuándo usar cada tipo de bucle**  
-   Seleccionar entre `for`, `while` o `do–while` fue un reto, ya que cada uno se adapta mejor a distintos escenarios. Comprender estas diferencias fue esencial para resolver los ejercicios correctamente.
+3. **Manejo de arreglos y control de índices**
+Trabajar con arreglos resultó complejo debido a errores frecuentes en los índices, como acceder a posiciones fuera del rango permitido. Esto ocasionó fallos en el programa y dificultó la obtención de los resultados esperados.
 
-4. **Validación de datos ingresados por el usuario**  
-   En varios ejercicios se exigía verificar si los valores ingresados eran válidos (por ejemplo, evitar valores negativos o fuera de rango). Incorporar estas validaciones dentro de las estructuras condicionales generó dificultades iniciales.
+4. **Organización del código para mayor claridad y reutilización**
+Lograr que el código sea claro, ordenado y reutilizable no fue sencillo al inicio. Aprender a estructurar bien las funciones y a nombrarlas correctamente ayudó a mejorar la comprensión del programa.
 
-5. **Traducción de un algoritmo a código en distintos lenguajes**  
-   Pasar un mismo ejercicio a lenguajes como C o Python implicó adaptarse a diferentes sintaxis y formas de estructurar las instrucciones, lo cual requirió práctica adicional.
-
-Estas dificultades, aunque fueron algo complicadas de enfrentar, permitieron fortalecer el razonamiento lógico y mejorar la capacidad para diseñar soluciones más claras y eficientes.
+Estas dificultades, aunque representaron un desafío inicial, permitieron fortalecer el razonamiento lógico y mejorar la forma de programar, logrando soluciones más organizadas y eficientes.
 
 ----
 
 # Reflexión Crítica de los Aprendizajes de la Unidad 🧠📘✨
 
-A lo largo de esta unidad se lograron desarrollar habilidades fundamentales para la construcción de algoritmos y programas básicos con estructuras **condicionales** y **repetitivas** que permitió comprender cómo los programas toman decisiones y cómo se pueden automatizar tareas mediante ciclos. Estos contenidos, aunque al inicio resultaron complejos, fueron esenciales para fortalecer el pensamiento lógico y la capacidad de resolver problemas de forma estructurada.
+Durante toda esta unidad desarrollé habilidades fundamentales relacionadas con la modularidad y el uso de arreglos en el lenguaje C, lo que permitió comprender cómo organizar un programa de manera más clara y eficiente. Estos contenidos ayudaron a entender la importancia de dividir un problema grande en partes más pequeñas, facilitando la lectura, el mantenimiento y la corrección del código. Aunque al inicio resultaron complejos, fueron esenciales para fortalecer el pensamiento lógico y la estructuración de soluciones.
 
-Uno de los aprendizajes más significativos fue entender la importancia de elegir adecuadamente la estructura de control según la necesidad del problema. La experiencia demostró que no siempre la primera solución es la más eficiente y que es necesario analizar el programa antes de implementarlo. Además, el uso de diferentes lenguajes como C y Python facilitó reconocer que, aunque la sintaxis cambia, la lógica detrás de los algoritmos es la misma.
+Uno de los aprendizajes más significativos fue comprender cómo funcionan las funciones y el paso de parámetros por valor y por referencia, ya que esto permitió manejar mejor los datos dentro de un programa. También se aprendió que los arreglos son una herramienta clave para almacenar y procesar varios datos de forma ordenada. La experiencia demostró que un programa bien modularizado es más fácil de entender y mejorar. En general, estos aprendizajes aportaron una base sólida para enfrentar problemas de programación más complejos en el futuro.
 
 ----
 
