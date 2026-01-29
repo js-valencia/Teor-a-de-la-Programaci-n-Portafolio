@@ -110,6 +110,9 @@ Un arreglo unidimensional almacena datos en una sola dimensión, similar a una l
 
 Un arreglo bidimensional organiza los datos en filas y columnas, similar a una matriz.
 
+### Arreglos Tridimencionales
+
+Un arreglo tridimensional organiza los datos en filas, columnas y niveles o capas, similar a un grupo de matrice.
 
 Manejo de matrices
 ----
