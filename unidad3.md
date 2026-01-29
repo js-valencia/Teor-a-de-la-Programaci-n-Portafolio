@@ -1,4 +1,4 @@
-# 🧠 Unidad 2
+# 🧠 Unidad 3
 
 ---
 
@@ -19,129 +19,72 @@ En el lenguaje C lo implementamos creando funciones, rutinas, etc, que permitan 
 
 ### Funciones 🟢
 
-Una función es el conjunto de sentencias que realiza una tarea determinada. Un ejemplo de una función es la función *printf();* de la librería *#include <stdio.h>* la cual sirve estrictamente para salida de datos.
+Una función es el conjunto de sentencias que realiza una tarea determinada. Un ejemplo de una función es la función `printf();` de la librería `#include <stdio.h>` la cual sirve estrictamente para salida de datos.
 
-* **Ejemplo con pase de parámetros por valor**
+#### **Ejemplo con pase de parámetros por valor**
 
-Inicializamos con un problema de una suma de numeros enteros, y necesitamos devolver un tipo de dato entero sin cambiar los números dentro de la función *main* 
+Inicializamos con un problema de una suma de numeros enteros, y necesitamos devolver un tipo de dato entero sin cambiar los números dentro de la función *main* , para ello creamos dos variables de tipo entero, "a" y "b", y a estas variables les asignamos un valor de 5 y 7 respectivamente.
 
-* **Problema:** Determinar si un número ingresado por el usuario es *mayor a 100*.
-
-* 📄 [Diagrama de Flujo](https://github.com/js-valencia/Teor-a-de-la-Programaci-n-Portafolio/blob/main/Unidad%202/diagrama_1.png)
+Al momento en que nosotros modificamos un valor fuera de la funcion main solo usando parámetros por valor, la variable mantiene el valor que le habiamos dado en el principio, en el caso de "a" seguiria siendo 5 aunque se modifique en otra función.
 
 * 💻️ **Código:**
 
 ```c
 #include <stdio.h>
 
-int main(void) {
+void sumar(int a, int b) {
+    a += b;
+    int total = a + b;
+    printf("a: %d, b: %d, Total: %d\n", a, b, total);
+}
 
-   int num;
-   scanf("%d", &num);
-
-   if (num > 100) {
-      printf("El numero %d es mayor a 100", num);
-   }
-
-   return 0;
+int main(void){
+    int a, b;
+    a = 5;
+    b = 7;
+    sumar(a, b);
+    printf("a = %d, b = %d", a, b);
+    return 0;
 }
 ```
+Si sumamos el nuevo valor de "a" dentro de la funcion **sumar** este solo afecta dentro de dicha función, ejecutandolo sería:
 
-### Estructura Condicional Doble 🔄
+<img width="246" height="44" alt="image" src="https://github.com/user-attachments/assets/0e109cec-1634-4ede-bb1b-348c79f95662" />
 
-Es aquella que permite evaluar una condición y elegir entre 2 opciones (verdadera y falsa) [4].
+Como podemos observar, primero se ejecuta la funcion que guarda "a" como 12, pero este valor no afecta después al momento de imprimirlo dentro de la función main, pero, ¿cómo podemos resolver esto?
 
-En esta estructura, la condición pasa a evaluar dentro de un *if*, si la condición es verdadera, se ejecuta un bloque de instrucciones, si la condición es falsa pasa a ejecutarse el bloque de instrucciones que están dentro de *else*.
+#### Ejemplo con pase de parámetros por referencia
 
-* **Problema:** Ingresar la edad de una persona y determinar si es *mayor de edad* (≥18) o *menor de edad*.
+Inicializamos otro problema, ahora una resta de dos numeros enteros, la cual va a tener las mismas variables dentro de la función main, "a" y "b", las cuales tienen los valores de 5 y 2 respectivamente.
 
-* 📄 [Diagrama de Flujo](https://github.com/js-valencia/Teor-a-de-la-Programaci-n-Portafolio/blob/main/Unidad%202/diagrama_2.png)
+En esta estructura, indicarémos por referencia desde que llamamos a la función "restar". Escribimos **&** para referenciar dentro del main y utilizamos un puntero " * " el cual sirve de ayuda para apuntar a la dirección de la variable que está dentro del main.
 
 * 💻️ **Código:**
 
 ```c
 #include <stdio.h>
 
-int main(void) {
+void restar(int *a, int *b) {
+    *a -= *b;
+    int total = *a - *b;
+    printf("a: %d, b: %d, Total: %d\n", *a, *b, total);
+}
 
-   int edad;
-   scanf("%d", &edad);
-
-   if (edad >= 18) {
-      printf("Tu edad es: %d\nEres mayor de edad", edad);
-   } else {
-      printf("Tu edad es: %d\nEres menor de edad", edad);
-   }
-   return 0;
+int main(void){
+    int a, b;
+    a = 5;
+    b = 2;
+    restar(&a, &b);
+    printf("a = %d, b = %d", a, b);
+    return 0;
 }
 ```
 
-### Estructura Condicional Multiple 🔢➡️
+Como podemos observar,  escribimos de manera diferente el código, y esto afecta a las variables "a" y "b" para que tomen otros valores aunque estén en otra función.
 
-Es aquella que permite escoger entre dos o más opciones. La estructura switch valida la opción que se encuentra dentro del paréntesis y el resultado ejecuta el conjunto de instrucciones  seleccionado por la opción antes mencionada [4].
+<img width="218" height="44" alt="image" src="https://github.com/user-attachments/assets/e035f24f-9bd3-44b0-b626-8c6e48b5c910" />
 
-En esta estructura, la condición *switch* pasa a evaluar una variable dentro de un número determinado de casos, pueden ser n casos que se representan con la sintaxis *case 1, case 2, case n*; además, para cada caso hay que ingresar un valor de caso, este valor es estricto y se tiene que cumplir para que pueda ejecutarse como verdadero, caso contrario, evalúa el siguiente caso y así hasta llegar al *default* que se ejecuta cuando no cumple con ningún caso.
-
-* **Problema:**  Solicitar al usuario un número del 1 al 5 y mostrar:
-
-1 → “Hamburguesa”
-
-2 → “Papas fritas”
-
-3 → “Refresco”
-
-4 → “Helado”
-
-5 → “Combo”
-
-Si el usuario ingresa un número fuera del rango, mostrar: “Opción inválida”.
-
-* 📄 [Diagrama de Flujo](https://github.com/js-valencia/Teor-a-de-la-Programaci-n-Portafolio/blob/main/Unidad%202/diagrama_3.png)
-
-*  💻️ **Código:**
-
-```c
-#include <stdio.h>
-
-int main(void) {
-
-   int comida;
-
-   printf("Lista de Comidas\n");
-   printf("1. Hamburguesas\n");
-   printf("2. Papas fritas\n");
-   printf("3. Refresco\n");
-   printf("4. Helado\n");
-   printf("5. Combo\n");
-
-   printf("Ingrese el numero de la comida: ");
-   scanf("%d", &comida);
-   getchar();
-
-   switch(comida){
-        case 1:
-            printf("Elegiste: Hamburguesas");
-            break;
-        case 2:
-            printf("Elegiste: Papas fritas");
-            break;
-        case 3:
-            printf("Elegiste: Refresco");
-            break;
-        case 4:
-            printf("Elegiste: Helado");
-            break;
-        case 5:
-            printf("Elegiste: Combo");
-            break;
-        default:
-            printf("Opcion Invalida");   
-            break;
-    }
-
-   return 0;
-}
-```
+En esta imagen, se observa la salida del código por la terminal, y "a" ya no vale lo mismo, porque inicializamos en 5, pero esa variable toma el valor de 3 debido al paso de parámetros por referencia.
 
 ----
 
