@@ -90,110 +90,28 @@ En esta imagen, se observa la salida del código por la terminal, y "a" ya no va
 
 # Arreglos 🔁
 
-Los **arreglos** en programación son 
+Los arreglos en C son estructuras de datos que permiten almacenar varios valores del mismo tipo en posiciones contiguas de memoria. Cada elemento se accede mediante un índice, el cual comienza en 0.
 
-### Estructuras Repetitivas While 🔄⏳
+En C, los arreglos son fundamentales para trabajar con colecciones de datos y están estrechamente relacionados con el uso de punteros y memoria.
 
-Es un conjunto de sentencias dentro del while se ejecuta mientras la expresión booleana que controla el ciclo while es verdadera [4].
+### Características principales
 
-En esta estructura, la condición *while*  lee la condición, si esta condición es verdadera pasa al bloque de instrucciones en esta sentencia; una vez hecho este bloque nuevamente evalúa la condición y así sucesivamente hasta que la condición sea falsa para salir del bucle.
+* Tienen un tamaño fijo definido al declararse
+* Almacenan datos del mismo tipo
+* Se accede a los elementos mediante índices
+* El nombre del arreglo representa la dirección del primer elemento
+* Se recorren comúnmente usando ciclos for
 
-* **Problema:** Pedir al usuario un número y seguir solicitando otro mientras el número ingresado sea *negativo*.
+### Arreglos unidimensionales
 
-* 📄 [Diagrama de Flujo](https://github.com/js-valencia/Teor-a-de-la-Programaci-n-Portafolio/blob/main/Unidad%202/diagrama_4.png)
+Un arreglo unidimensional almacena datos en una sola dimensión, similar a una lista.
 
-* 💻️ **Código:**
+### Arreglos bidimensionales
 
-```c
-#include <stdio.h>
+Un arreglo bidimensional organiza los datos en filas y columnas, similar a una matriz.
 
-int main(void) {
 
-   int num;
-
-   scanf("%d", &num);
-
-   while (num >= 0) {
-      printf("Numero ingresado: %d\n", num);
-      scanf("%d", &num);
-   }
-
-   printf("Fin del programa.\n");
-   
-   return 0;
-}
-```
-### Estructuras Repetitivas Do While 🔁✨
-
-Tiene una forma diferente al momento de ejecutarse, es importante indicar que en la estructura do-while realiza un conjunto de instrucciones y después se evalúa la condición, esto quiere decir que si la condición resulta ser falsa el conjunto de instrucciones se ejecutará al menos una vez [4].
-
-Esta estructura comienza con un *do* y el bloque de instrucciones, después se ubica un while seguido de la condición a evaluar, si la condición es verdadera, se repite el bloque de instrucciones dentro del do y así sucesivamente, y si es falsa termina el bucle y continúa con el programa.
-
-* **Problema:** Crear un programa que pida al usuario una contraseña (número). El programa debe seguir pidiendo la contraseña hasta que el usuario ingrese el valor correcto.  
-
-* 📄 [Diagrama de Flujo](https://github.com/js-valencia/Teor-a-de-la-Programaci-n-Portafolio/blob/main/Unidad%202/diagrama_5.png)
-
-* 💻️ **Código:**
-
-```c
-#include <stdio.h>
-
-int main(void) {
-
-   int pasword;
-   int intento;
-
-   pasword = 1234;    // Contraseña correcta
-
-   do {
-       printf("Ingrese la contrasena de 4 digitos: ");
-       scanf("%d", &intento);
-
-       if (intento != pasword) {
-           printf("Contrasena incorrecta. Intente de nuevo.\n");
-       }
-
-   } while (intento != pasword);
-
-   printf("Bienvenido! Ha ingresado la contrasena correcta.\n");
-
-   return 0;
-}
-```
-
-### Estructuras Repetitivas For 🎯🧮
-
-El bucle `for` se utiliza mejor para bucles controlados por contadores, donde un conjunto de declaraciones se ejecuta una vez para cada valor en un rango específico [4].
-
-Para esta estructura iniciamos el bucle con un *for*, y tiene que tener tres expresiones, en la primera expresión damos el valor del contador, en la seguna expresión se ubica la condición y en la tercera expresión se incrementa o decrementa el contador; despues ponemos el bloque de instrucciones que debemos evaluar.
-
-* **Problema:** Solicitar un número entero positivo y mostrar todos los números desde *1 hasta ese número*.
-
-* 📄 [Diagrama de Flujo](https://github.com/js-valencia/Teor-a-de-la-Programaci-n-Portafolio/blob/main/Unidad%202/diagrama_6.png)
-
-* 💻️ **Código:**
-
-```c
-#include <stdio.h>
-
-int main(void) {
-
-   int i;
-   int num;
-
-   printf("Ingrese un numero entero positivo: ");
-   scanf("%d", &num);
-   getchar();
-
-   for (i = 1; i <= num; i++) {
-      printf("%d\n", i);
-   }
-
-   return 0;
-
-}
-```
-
+Manejo de matrices
 ----
 
 # Principales Dificultades en la Aplicación de los Contenidos ⚠️🧩
@@ -226,10 +144,10 @@ Uno de los aprendizajes más significativos fue comprender cómo funcionan las f
 
 # Tareas Entregadas 📚📎
 
-* 📄 [APE 1: Aplicación de estructuras condicionales en la resolución de problemas](https://github.com/js-valencia/Teor-a-de-la-Programaci-n-Portafolio/blob/main/Unidad%202/Estructuras_Condicionales_APE1_U2_JoséValencia.pdf)
-* 📄 [APE 2: Aplicación de estructuras repetitivas en la resolución de problemas](https://github.com/js-valencia/Teor-a-de-la-Programaci-n-Portafolio/blob/main/Unidad%202/Estructuras_Repetitivas_APE2_U2_JoséValencia.pdf)
+* 📄 [APE 1]
+* 📄 [APE 2]
+*  📄 [APE 3]
 
-* 📄 [AA 1: Diferencias entre los tipos de estructuras condicionales](https://github.com/js-valencia/Teor-a-de-la-Programaci-n-Portafolio/blob/main/Unidad%202/Tipos_Estructuras_Condicionales_U2_AA_JoséValencia.pdf)
-* 📄 [AA 2: Cuadro comparativo entre las estructuras repetitivas](https://github.com/js-valencia/Teor-a-de-la-Programaci-n-Portafolio/blob/main/Unidad%202/Estructuras_Repetitivas_AA2_U2_JoseValencia.pdf)
+* 📄 [AA 1]
 
 ----
